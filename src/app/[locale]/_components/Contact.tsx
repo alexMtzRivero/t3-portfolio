@@ -39,11 +39,11 @@ export function Contact() {
     <section className="py-16 px-6 bg-white/70">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-secondary-900 mb-8 font-canela">
-          Let's Work Together
+          Let&apos;s Work Together
         </h2>
         <p className="text-xl text-secondary-600 mb-12">
-          I'm always interested in new opportunities and exciting projects. 
-          Let's discuss how we can build something amazing together.
+          I&apos;m always interested in new opportunities and exciting projects. 
+          Let&apos;s discuss how we can build something amazing together.
         </p>
         <div className="flex flex-col sm:flex-row gap-6 justify-center">
           {contactMethods.map((method) => (

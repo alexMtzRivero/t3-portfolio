@@ -28,7 +28,8 @@
     "baseUrl": ".",
     "paths": {
       "~/*": ["./src/*"],
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "html2canvas": ["./node_modules/html2canvas-pro"]
     }
   },
   "include": [

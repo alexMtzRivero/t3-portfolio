@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from 'next-intl';
-import { LanguageSelector } from './LanguageSelector';
+import { LanguageSelector } from '../[locale]/_components/LanguageSelector';
 
 export function Navigation() {
   const t = useTranslations('navigation');

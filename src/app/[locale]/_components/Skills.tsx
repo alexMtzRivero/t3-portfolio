@@ -42,7 +42,7 @@ export function Skills() {
           Technical Skills
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
-          {skillCategories.map((category, index) => (
+          {skillCategories.map((category, _index) => (
             <div key={category.title} className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow duration-300 border border-secondary-200">
               {/* ANIMATION: Staggered fade in from bottom */}
               <h3 className="text-xl font-semibold text-primary-600 mb-6 text-center font-canela">

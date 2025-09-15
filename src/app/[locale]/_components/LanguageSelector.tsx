@@ -1,8 +1,7 @@
 "use client";
 
-import { useLocale } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/routing';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const languages = [
   { code: 'en', name: 'English', flag: '🇺🇸' },
@@ -10,17 +9,19 @@ const languages = [
 ];
 
 export function LanguageSelector() {
-  const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
-
+  const [currentLanguage, setCurrentLanguage] = useState(languages[0]);
   const handleLanguageChange = (newLocale: string) => {
-    router.push(pathname, { locale: newLocale });
+    router.replace (`/`, {locale: newLocale});
     setIsOpen(false);
   };
-
-  const currentLanguage = languages.find(lang => lang.code === locale) || languages[0];
+  useEffect(() => {
+    const urlLocale = pathname.split('/')[1];
+    setCurrentLanguage(languages.find(lang => lang.code == urlLocale) ?? languages[0]);
+  }, [pathname]);
+  
 
   return (
     <div className="relative">
@@ -29,8 +30,8 @@ export function LanguageSelector() {
         className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-secondary-600 hover:text-primary-600 transition-colors duration-200 border border-secondary-200 rounded-lg hover:border-primary-300"
         aria-label="Select language"
       >
-        <span className="text-lg">{currentLanguage.flag}</span>
-        <span className="hidden sm:inline">{currentLanguage.name}</span>
+        <span className="text-lg">{currentLanguage?.flag}</span>
+        <span className="hidden sm:inline">{currentLanguage?.name}</span>
         <svg
           className={`w-4 h-4 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
           fill="none"
@@ -49,14 +50,14 @@ export function LanguageSelector() {
                 key={language.code}
                 onClick={() => handleLanguageChange(language.code)}
                 className={`w-full flex items-center space-x-3 px-4 py-2 text-sm hover:bg-secondary-50 transition-colors duration-200 ${
-                  locale === language.code 
+                  currentLanguage?.code === language.code 
                     ? 'text-primary-600 bg-primary-50' 
                     : 'text-secondary-700'
                 }`}
               >
                 <span className="text-lg">{language.flag}</span>
                 <span>{language.name}</span>
-                {locale === language.code && (
+                {currentLanguage?.code === language.code && (
                   <svg className="w-4 h-4 ml-auto" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>

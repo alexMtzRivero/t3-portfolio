@@ -8,9 +8,10 @@
     "resume": "Resume"
   },
   "hero": {
-    "name": "Alejandro Martinez",
+    "summary": "Summary",
+    "name": "Alejandro Martínez",
     "title": "CTO & Co-Founder",
-    "description": "Engineering leader and full-stack developer with 8+ years of experience designing, building, and scaling distributed systems and SaaS platforms. Proven track record as CTO and co-founder, leading cross-functional teams and delivering AI-powered products adopted by mid-sized businesses.",
+    "description": "Engineering leader and full-stack developer with 8+ years of experience designing, building, and scaling distributed systems and SaaS platforms. Proven track record as CTO and co-founder, leading cross-functional teams, driving architecture decisions, and delivering AI-powered products adopted by mid-sized businesses. Skilled at bridging deep technical execution with strategic leadership to deliver measurable business impact.",
     "viewWork": "View My Work",
     "downloadResume": "Download Resume"
   },
@@ -57,75 +58,91 @@
     }
   },
   "experience": {
+    "title": "Experience",
     "items": {
       "platsage": {
         "title": "CTO & Co-Founder",
         "company": "Platsage",
         "duration": "January 2023 - Present",
-        "description": "Founded and scaled an AI-powered omnichannel messaging platform integrating WhatsApp, social media, and web chat for SMEs. Led a team of 6 engineers, achieving 99.9% uptime while handling 100k+ monthly conversations. Implemented AI-assisted chat automation that reduced average customer response time by 70%."
+        "description": 
+           "- Founded and scaled an AI-powered omnichannel messaging platform integrating WhatsApp, social media, and web chat for SMEs. \n - Led a team of 6 engineers, driving hiring, mentoring, and culture as the company scaled operations. \n - Designed the system architecture on AWS + Pulumi, achieving 99.9% uptime while handling 100k+ monthly conversations. \n - Implemented AI-assisted chat automation that reduced average customer response time by 70%, improving conversion rates. \n - Grew platform adoption to 50+ businesses, increasing client online sales and generating recurring SaaS revenue."
       },
       "siglo": {
         "title": "Full-stack Developer",
         "company": "Siglo Internet (YC S21)",
         "duration": "October 2021 - October 2022", 
-        "description": "Designed and built internal mobile apps for field technicians, enabling them to install internet services 2× faster. Optimized applications for low-end Android devices, ensuring reliability in environments with poor connectivity."
+        "description": "-Designed and built internal mobile apps for field technicians, enabling them to install internet services 2× faster. \n- Optimized applications for low-end Android devices, ensuring reliability in environments with poor or lost connectivity. \n- Developed features with Django, Kotlin, and Jetpack Compose, improving resilience under critical and recovery system conditions. \n- Collaborated across teams (execs, HR, engineers) to streamline workflows, reducing service downtime and improving customer satisfaction."
       },
       "oneragtime": {
         "title": "Full Stack Developer",
         "company": "OneRagtime",
         "duration": "October 2020 - September 2021",
-        "description": "Delivered complete features using test-driven development, participating from architecture design to polished UX. Built scalable services and reduced bugs in production by ~20% by introducing automated testing and CI/CD pipelines."
-      },
+        "description": "- Delivered complete features using test-driven development, participating from architecture design to polished UX. \n - Built scalable services with Django, Vue.js, Docker, and MySQL. \n - Reduced bugs in production by ~20% by introducing automated testing and CI/CD pipelines (initiative side project tracked via Sentry). \n- Cut deployment times by 40% through improved release workflows" },
       "capvital": {
         "title": "Full Stack Developer", 
         "company": "Capvital",
         "duration": "January 2020 - October 2020",
-        "description": "Owned development in critical banking transaction systems. Designed a parallel validation service that cloned the database and executed old and new transaction processes in parallel, reducing development cycles from weeks to days."
+        "description": "- Owned development in critical banking transaction systems, where feature changes previously took weeks due to reliability concerns. \n  - Designed a parallel validation service that cloned the database, executed old and new transaction processes in parallel, and flagged discrepancies.\n  - This innovation provided high reliability and confidence in production changes, reducing development cycles from weeks to days.\n  - Full-stack contributions with Laravel, AngularJS, Python, and MySQL." 
+      },
+      "inria":{
+        "title": "Research Intern",
+        "company": "INRIA",
+        "duration": "January 2019 - June 2019",
+        "description": "- Published research article at WWW’20 conference on IoT modeling with rulebased systems. \n - Built prototypes using Vue.js, Node.js, Java, and SQLite for connected device simulation."
       }
-    },
-    "technologies": {
-      "platsage": ["AWS", "Pulumi", "AI/ML", "WhatsApp API", "Docker"],
-      "siglo": ["Django", "Kotlin", "Jetpack Compose", "Android", "Python"],
-      "oneragtime": ["Django", "Vue.js", "Docker", "MySQL", "Sentry"],
-      "capvital": ["Laravel", "AngularJS", "Python", "MySQL", "Banking Systems"]
-    }
+      }
   },
   "projects": {
     "items": {
       "platsage": {
-        "title": "Platsage AI Platform",
+        "title": "Platsage - AI Messaging Platform",
         "icon": "🤖",
-        "description": "AI-powered omnichannel messaging platform integrating WhatsApp, social media, and web chat for SMEs. Achieved 99.9% uptime and 70% reduction in response time.",
-        "liveUrl": "#",
-        "githubUrl": "#"
+        "description": "AI-powered omnichannel messaging platform integrating WhatsApp, social media, and web chat for SMEs. Built with AWS, Pulumi, and AI/ML technologies.",
+        "liveUrl": "https://platsage.com",
+        "githubUrl": "https://github.com/platsage"
       },
       "fieldTechnician": {
         "title": "Field Technician Mobile App",
-        "icon": "📱", 
-        "description": "Internal mobile apps for field technicians enabling 2× faster internet service installation. Optimized for low-end Android devices with offline capabilities.",
+        "icon": "📱",
+        "description": "Mobile app for field technicians to install internet services 2x faster. Built with Kotlin, Jetpack Compose, Django, and Android.",
         "liveUrl": "#",
         "githubUrl": "#"
       },
       "bankingSystem": {
         "title": "Banking Transaction System",
         "icon": "🏦",
-        "description": "Parallel validation service for critical banking transactions. Reduced development cycles from weeks to days with high reliability and confidence in production changes.",
-        "liveUrl": "#", 
+        "description": "Critical banking transaction systems with parallel validation service. Built with Laravel, AngularJS, Python, and MySQL.",
+        "liveUrl": "#",
         "githubUrl": "#"
       },
       "mozartIot": {
-        "title": "MOZART IoT Research",
+        "title": "Mozart IoT Research",
         "icon": "🔬",
-        "description": "Published research article at WWW'20 conference on IoT modeling with rule-based systems. Built prototypes for connected device simulation.",
+        "description": "IoT modeling with rule-based systems research project. Built with Vue.js, Node.js, Java, and SQLite.",
         "liveUrl": "#",
         "githubUrl": "#"
       }
-    },
-    "technologies": {
-      "platsage": ["AWS", "Pulumi", "AI/ML", "WhatsApp API", "Docker"],
-      "fieldTechnician": ["Kotlin", "Jetpack Compose", "Django", "Android", "Python"],
-      "bankingSystem": ["Laravel", "AngularJS", "Python", "MySQL", "Banking Systems"],
-      "mozartIot": ["Vue.js", "Node.js", "Java", "SQLite", "IoT"]
+    }
+  },
+  "education": {
+    "title": "Education",
+    "items": {
+      "harbourspace": {
+        "title": "Master's degree, Major in computer science, Minor in Data science",
+        "university": "Harbour.space",
+        "duration": "January 2020 - December 2021"
+        },
+      "universityGrenoble": {
+
+        "title": "Bachelor's degree (licence professionnel), mobile services and nomad interfaces",
+        "university": "Université Grenoble Alpes",
+        "duration": "2018 - 2019"
+        },
+      "universityChihuahua": {
+        "title": "Tecnico superior universitario en tecnologías de la información",
+        "university": "Universidad tecnológica de Chihuahua",
+        "duration": "2016 - 2018"
+       }
     }
   },
   "contact": {

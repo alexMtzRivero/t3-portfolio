@@ -9,7 +9,9 @@ import { Footer } from "./_components/Footer";
 import { navItems, skillCategories, experiences, projects, contactMethods } from "../data";
 import { Navigation } from "./_components/Navigation";
 
+
 export default function HomePage() {
+
   return (
     <div className="min-h-screen bg-secondary-50 grid-pattern">
       <Navigation navItems={navItems} />

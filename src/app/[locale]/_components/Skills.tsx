@@ -1,18 +1,40 @@
-interface Skill {
-  name: string;
-  level: number;
-}
+"use client";
 
-interface SkillCategory {
-  title: string;
-  skills: Skill[];
-}
+import { useTranslations } from 'next-intl';
 
-interface SkillsProps {
-  skillCategories: SkillCategory[];
-}
+export function Skills() {
+  const t = useTranslations('skills');
 
-export function Skills({ skillCategories }: SkillsProps) {
+  const skillCategories = [
+    {
+      title: t('categories.frontend.title'),
+      skills: [
+        { name: t('frontend.reactjs'), level: 95 },
+        { name: t('frontend.vuejs'), level: 90 },
+        { name: t('frontend.jetpackCompose'), level: 85 },
+        { name: t('frontend.angularjs'), level: 80 },
+      ],
+    },
+    {
+      title: t('categories.backend.title'),
+      skills: [
+        { name: t('backend.pythonDjango'), level: 95 },
+        { name: t('backend.nodejs'), level: 90 },
+        { name: t('backend.laravel'), level: 85 },
+        { name: t('backend.mysql'), level: 90 },
+      ],
+    },
+    {
+      title: t('categories.cloudDevops.title'),
+      skills: [
+        { name: t('cloudDevops.aws'), level: 90 },
+        { name: t('cloudDevops.docker'), level: 95 },
+        { name: t('cloudDevops.pulumi'), level: 85 },
+        { name: t('cloudDevops.cicd'), level: 90 },
+      ],
+    },
+  ];
+
   return (
     <section className="py-16 px-6">
       <div className="max-w-6xl mx-auto">

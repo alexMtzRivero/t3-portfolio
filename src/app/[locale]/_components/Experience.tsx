@@ -1,16 +1,49 @@
-interface Experience {
-  title: string;
-  company: string;
-  duration: string;
-  description: string;
-  technologies: string[];
-}
+"use client";
 
-interface ExperienceProps {
-  experiences: Experience[];
-}
+import { useTranslations } from 'next-intl';
 
-export function Experience({ experiences }: ExperienceProps) {
+export function Experience() {
+  const t = useTranslations('experience');
+
+  const experiences = [
+    {
+      title: t('items.platsage.title'),
+      company: t('items.platsage.company'),
+      duration: t('items.platsage.duration'),
+      description: t('items.platsage.description'),
+      technologies: [
+        "AWS", "Pulumi", "AI/ML", "WhatsApp API", "Docker"
+      ],
+    },
+    {
+      title: t('items.siglo.title'),
+      company: t('items.siglo.company'),
+      duration: t('items.siglo.duration'),
+      description: t('items.siglo.description'),
+      technologies: [
+        "Django", "Kotlin", "Jetpack Compose", "Android", "Python"
+      ],
+    },
+    {
+      title: t('items.oneragtime.title'),
+      company: t('items.oneragtime.company'),
+      duration: t('items.oneragtime.duration'),
+      description: t('items.oneragtime.description'),
+      technologies: [
+        "Django", "Vue.js", "Docker", "MySQL", "Sentry"
+      ],
+    },
+    {
+      title: t('items.capvital.title'),
+      company: t('items.capvital.company'),
+      duration: t('items.capvital.duration'),
+      description: t('items.capvital.description'),
+      technologies: [
+        "Laravel", "AngularJS", "Python", "MySQL", "Banking Systems"
+      ],
+    },
+  ];
+
   return (
     <section className="py-16 px-6 bg-white/70">
       <div className="max-w-6xl mx-auto">

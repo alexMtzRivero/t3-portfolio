@@ -1,17 +1,53 @@
-interface Project {
-  title: string;
-  icon: string;
-  description: string;
-  technologies: string[];
-  liveUrl: string;
-  githubUrl: string;
-}
+"use client";
 
-interface ProjectsProps {
-  projects: Project[];
-}
+import { useTranslations } from 'next-intl';
 
-export function Projects({ projects }: ProjectsProps) {
+export function Projects() {
+  const t = useTranslations('projects');
+
+  const projects = [
+    {
+      title: t('items.platsage.title'),
+      icon: t('items.platsage.icon'),
+      description: t('items.platsage.description'),
+      technologies: [
+        "AWS", "Pulumi", "AI/ML", "WhatsApp API", "Docker"
+      ],
+      liveUrl: t('items.platsage.liveUrl'),
+      githubUrl: t('items.platsage.githubUrl'),
+    },
+    {
+      title: t('items.fieldTechnician.title'),
+      icon: t('items.fieldTechnician.icon'),
+      description: t('items.fieldTechnician.description'),
+      technologies: [
+        "Kotlin", "Jetpack Compose", "Django", "Android", "Python"
+      ],
+      liveUrl: t('items.fieldTechnician.liveUrl'),
+      githubUrl: t('items.fieldTechnician.githubUrl'),
+    },
+    {
+      title: t('items.bankingSystem.title'),
+      icon: t('items.bankingSystem.icon'),
+      description: t('items.bankingSystem.description'),
+      technologies: [
+        "Laravel", "AngularJS", "Python", "MySQL", "Banking Systems"
+      ],
+      liveUrl: t('items.bankingSystem.liveUrl'),
+      githubUrl: t('items.bankingSystem.githubUrl'),
+    },
+    {
+      title: t('items.mozartIot.title'),
+      icon: t('items.mozartIot.icon'),
+      description: t('items.mozartIot.description'),
+      technologies: [
+        "Vue.js", "Node.js", "Java", "SQLite", "IoT"
+      ],
+      liveUrl: t('items.mozartIot.liveUrl'),
+      githubUrl: t('items.mozartIot.githubUrl'),
+    },
+  ];
+
   return (
     <section className="py-16 px-6">
       <div className="max-w-6xl mx-auto">

@@ -1,6 +1,148 @@
 {
-  "HomePage": {
-    "title": "Hello world!"
+  "navigation": {
+    "about": "About",
+    "skills": "Skills", 
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "resume": "Resume"
+  },
+  "hero": {
+    "name": "Alejandro Martinez",
+    "title": "CTO & Co-Founder",
+    "description": "Engineering leader and full-stack developer with 8+ years of experience designing, building, and scaling distributed systems and SaaS platforms. Proven track record as CTO and co-founder, leading cross-functional teams and delivering AI-powered products adopted by mid-sized businesses.",
+    "viewWork": "View My Work",
+    "downloadResume": "Download Resume"
+  },
+  "about": {
+    "title": "About Me",
+    "description1": "With over 8 years of experience in software engineering, I specialize in building robust, scalable applications and leading engineering teams. As CTO and co-founder of Platsage, I've designed AI-powered omnichannel messaging platforms that serve 50+ businesses and handle 100k+ monthly conversations.",
+    "description2": "My expertise spans full-stack development, cloud architecture, AI implementation, and team leadership. I'm passionate about creating solutions that not only meet business requirements but also drive measurable impact, like reducing customer response time by 70% through AI automation.",
+    "skills": {
+      "reactVue": "React.js & Vue.js",
+      "pythonDjango": "Python & Django", 
+      "awsPulumi": "AWS & Pulumi",
+      "aiMl": "AI & Machine Learning"
+    }
+  },
+  "skills": {
+    "categories": {
+      "frontend": {
+        "title": "Frontend"
+      },
+      "backend": {
+        "title": "Backend"
+      },
+      "cloudDevops": {
+        "title": "Cloud & DevOps"
+      }
+    },
+    "frontend": {
+      "reactjs": "React.js",
+      "vuejs": "Vue.js", 
+      "jetpackCompose": "Jetpack Compose",
+      "angularjs": "AngularJS"
+    },
+    "backend": {
+      "pythonDjango": "Python/Django",
+      "nodejs": "Node.js",
+      "laravel": "Laravel", 
+      "mysql": "MySQL"
+    },
+    "cloudDevops": {
+      "aws": "AWS",
+      "docker": "Docker",
+      "pulumi": "Pulumi",
+      "cicd": "CI/CD"
+    }
+  },
+  "experience": {
+    "items": {
+      "platsage": {
+        "title": "CTO & Co-Founder",
+        "company": "Platsage",
+        "duration": "January 2023 - Present",
+        "description": "Founded and scaled an AI-powered omnichannel messaging platform integrating WhatsApp, social media, and web chat for SMEs. Led a team of 6 engineers, achieving 99.9% uptime while handling 100k+ monthly conversations. Implemented AI-assisted chat automation that reduced average customer response time by 70%."
+      },
+      "siglo": {
+        "title": "Full-stack Developer",
+        "company": "Siglo Internet (YC S21)",
+        "duration": "October 2021 - October 2022", 
+        "description": "Designed and built internal mobile apps for field technicians, enabling them to install internet services 2× faster. Optimized applications for low-end Android devices, ensuring reliability in environments with poor connectivity."
+      },
+      "oneragtime": {
+        "title": "Full Stack Developer",
+        "company": "OneRagtime",
+        "duration": "October 2020 - September 2021",
+        "description": "Delivered complete features using test-driven development, participating from architecture design to polished UX. Built scalable services and reduced bugs in production by ~20% by introducing automated testing and CI/CD pipelines."
+      },
+      "capvital": {
+        "title": "Full Stack Developer", 
+        "company": "Capvital",
+        "duration": "January 2020 - October 2020",
+        "description": "Owned development in critical banking transaction systems. Designed a parallel validation service that cloned the database and executed old and new transaction processes in parallel, reducing development cycles from weeks to days."
+      }
+    },
+    "technologies": {
+      "platsage": ["AWS", "Pulumi", "AI/ML", "WhatsApp API", "Docker"],
+      "siglo": ["Django", "Kotlin", "Jetpack Compose", "Android", "Python"],
+      "oneragtime": ["Django", "Vue.js", "Docker", "MySQL", "Sentry"],
+      "capvital": ["Laravel", "AngularJS", "Python", "MySQL", "Banking Systems"]
+    }
+  },
+  "projects": {
+    "items": {
+      "platsage": {
+        "title": "Platsage AI Platform",
+        "icon": "🤖",
+        "description": "AI-powered omnichannel messaging platform integrating WhatsApp, social media, and web chat for SMEs. Achieved 99.9% uptime and 70% reduction in response time.",
+        "liveUrl": "#",
+        "githubUrl": "#"
+      },
+      "fieldTechnician": {
+        "title": "Field Technician Mobile App",
+        "icon": "📱", 
+        "description": "Internal mobile apps for field technicians enabling 2× faster internet service installation. Optimized for low-end Android devices with offline capabilities.",
+        "liveUrl": "#",
+        "githubUrl": "#"
+      },
+      "bankingSystem": {
+        "title": "Banking Transaction System",
+        "icon": "🏦",
+        "description": "Parallel validation service for critical banking transactions. Reduced development cycles from weeks to days with high reliability and confidence in production changes.",
+        "liveUrl": "#", 
+        "githubUrl": "#"
+      },
+      "mozartIot": {
+        "title": "MOZART IoT Research",
+        "icon": "🔬",
+        "description": "Published research article at WWW'20 conference on IoT modeling with rule-based systems. Built prototypes for connected device simulation.",
+        "liveUrl": "#",
+        "githubUrl": "#"
+      }
+    },
+    "technologies": {
+      "platsage": ["AWS", "Pulumi", "AI/ML", "WhatsApp API", "Docker"],
+      "fieldTechnician": ["Kotlin", "Jetpack Compose", "Django", "Android", "Python"],
+      "bankingSystem": ["Laravel", "AngularJS", "Python", "MySQL", "Banking Systems"],
+      "mozartIot": ["Vue.js", "Node.js", "Java", "SQLite", "IoT"]
+    }
+  },
+  "contact": {
+    "methods": {
+      "email": {
+        "name": "Email Me",
+        "url": "mailto:alejandro.martinez.0598@gmail.com"
+      },
+      "linkedin": {
+        "name": "LinkedIn", 
+        "url": "https://linkedin.com/in/alejandromartinez-116836120"
+      },
+      "github": {
+        "name": "GitHub",
+        "url": "https://github.com/alexmtzrivero"
+      }
+    }
   }
 }
 

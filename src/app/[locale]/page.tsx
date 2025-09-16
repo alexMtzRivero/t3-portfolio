@@ -3,6 +3,7 @@ import { Hero } from "./_components/Hero";
 import { About } from "./_components/About";
 import { Experience } from "./_components/Experience";
 import { Projects } from "./_components/Projects";
+import { StakedViews } from "./_components/StakedViews";
 import { Contact } from "./_components/Contact";
 import { Footer } from "./_components/Footer";
 import { Navigation } from "./_components/Navigation";
@@ -28,6 +29,7 @@ export default async function HomePage({
       <About />
       <Experience />
       <Projects />
+      <StakedViews />
       <Contact />
       <Footer />
     </div>

@@ -49,23 +49,20 @@ export default function ResumeClient() {
       document.body.removeChild(pdfContent);
 
       const imgData = canvas.toDataURL("image/png");
-      const pdf = new jsPDF("p", "mm", "a4");
       
-      const imgWidth = 210;
-      const pageHeight = 295;
+      // Calculate dimensions for single page
+      const imgWidth = 210; // A4 width in mm
       const imgHeight = (canvas.height * imgWidth) / canvas.width;
-      let heightLeft = imgHeight;
-      let position = 0;
+      
+      // Create PDF with custom page size to fit the entire content
+      const pdf = new jsPDF({
+        orientation: "portrait",
+        unit: "mm",
+        format: [210, imgHeight] // Custom height to fit content
+      });
 
-      pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
-      heightLeft -= pageHeight;
-
-      while (heightLeft >= 0) {
-        position = heightLeft - imgHeight;
-        pdf.addPage();
-        pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
-        heightLeft -= pageHeight;
-      }
+      // Add the image to the single page
+      pdf.addImage(imgData, "PNG", 0, 0, imgWidth, imgHeight);
 
       // Download PDF directly
       const pdfBlob = pdf.output('blob') as Blob;

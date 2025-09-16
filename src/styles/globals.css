@@ -1,6 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Import utilities first */
+@import './utilities.css';
+
+/* Import Inter font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @font-face {
   font-family: "Canela";
@@ -100,12 +102,13 @@
   font-style: italic;
 }
 
-@theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+/* CSS Custom Properties (CSS Variables) */
+:root {
+  /* Fonts */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-serif: "Canela", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   
-  /* Custom Color Palette - Clean SaaS Theme (matching reference) */
+  /* Color Palette - Clean SaaS Theme */
   --color-primary-50: #f0f9f0;
   --color-primary-100: #dcf2dc;
   --color-primary-200: #bce5bc;
@@ -153,16 +156,62 @@
   --color-neutral-800: #262626;
   --color-neutral-900: #171717;
   --color-neutral-950: #0a0a0a;
+
+  /* Spacing */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-10: 2.5rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+  --spacing-24: 6rem;
+
+  /* Border radius */
+  --radius-sm: 0.125rem;
+  --radius: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
   scroll-behavior: smooth;
+  font-family: var(--font-sans);
 }
 
-html,
 body {
-  @apply bg-white;
+  background-color: white;
+  color: var(--color-neutral-900);
+  line-height: 1.6;
+  font-size: 16px;
 }
+
 
 /* Subtle grid pattern background */
 .grid-pattern {
@@ -178,15 +227,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-secondary-100;
+  background-color: var(--color-secondary-100);
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-primary-500 rounded-full;
+  background-color: var(--color-primary-500);
+  border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-primary-600;
+  background-color: var(--color-primary-600);
 }
 
 /* Smooth transitions for all interactive elements */
@@ -198,7 +248,9 @@ body {
 
 /* Custom focus styles */
 *:focus {
-  @apply outline-none ring-2 ring-primary-500 ring-offset-2 ring-offset-white;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px var(--color-primary-500);
 }
 
 /* Gradient text effect */

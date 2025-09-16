@@ -64,31 +64,31 @@
         "title": "CTO y Co-Fundador",
         "company": "Platsage",
         "duration": "Enero 2023 - Presente",
-        "description": "- Fundé y escalé una plataforma de mensajería omnicanal impulsada por IA que integra WhatsApp, redes sociales y chat web para PYMEs. \n - Lideré un equipo de 6 ingenieros, impulsando la contratación, mentoría y cultura mientras la empresa escalaba operaciones. \n - Diseñé la arquitectura del sistema en AWS + Pulumi, logrando 99.9% de tiempo de actividad mientras manejaba 100k+ conversaciones mensuales. \n - Implementé automatización de chat asistida por IA que redujo el tiempo promedio de respuesta al cliente en un 70%, mejorando las tasas de conversión. \n - Incrementé la adopción de la plataforma a 50+ empresas, aumentando las ventas en línea de los clientes y generando ingresos recurrentes de SaaS."
+        "description": " Fundé y escalé una plataforma de mensajería omnicanal impulsada por IA que integra WhatsApp, redes sociales y chat web para PYMEs. \n Lideré un equipo de 6 ingenieros, impulsando la contratación, mentoría y cultura mientras la empresa escalaba operaciones. \n Diseñé la arquitectura del sistema en AWS + Pulumi, logrando 99.9% de tiempo de actividad mientras manejaba 100k+ conversaciones mensuales. \n Implementé automatización de chat asistida por IA que redujo el tiempo promedio de respuesta al cliente en un 70%, mejorando las tasas de conversión. \n Incrementé la adopción de la plataforma a 50+ empresas, aumentando las ventas en línea de los clientes y generando ingresos recurrentes de SaaS."
       },
       "siglo": {
         "title": "Desarrollador Full-stack",
         "company": "Siglo Internet (YC S21)",
         "duration": "Octubre 2021 - Octubre 2022", 
-        "description": "- Diseñé y construí aplicaciones móviles internas para técnicos de campo, permitiéndoles instalar servicios de internet 2× más rápido. \n- Optimicé aplicaciones para dispositivos Android de gama baja, asegurando confiabilidad en entornos con conectividad deficiente o perdida. \n- Desarrollé características con Django, Kotlin, y Jetpack Compose, mejorando la resistencia bajo condiciones críticas y de recuperación del sistema. \n- Colaboré entre equipos (ejecutivos, RRHH, ingenieros) para optimizar flujos de trabajo, reduciendo el tiempo de inactividad del servicio y mejorando la satisfacción del cliente."
+        "description": " Diseñé y construí aplicaciones móviles internas para técnicos de campo, permitiéndoles instalar servicios de internet 2× más rápido. \n Optimicé aplicaciones para dispositivos Android de gama baja, asegurando confiabilidad en entornos con conectividad deficiente o perdida. \n Desarrollé características con Django, Kotlin, y Jetpack Compose, mejorando la resistencia bajo condiciones críticas y de recuperación del sistema. \n Colaboré entre equipos (ejecutivos, RRHH, ingenieros) para optimizar flujos de trabajo, reduciendo el tiempo de inactividad del servicio y mejorando la satisfacción del cliente."
       },
       "oneragtime": {
         "title": "Desarrollador Full Stack",
         "company": "OneRagtime",
         "duration": "Octubre 2020 - Septiembre 2021",
-        "description": "- Entregué características completas usando desarrollo dirigido por pruebas, participando desde el diseño de arquitectura hasta UX pulida. \n - Construí servicios escalables con Django, Vue.js, Docker, y MySQL. \n - Reduje bugs en producción en ~20% introduciendo pruebas automatizadas y pipelines de CI/CD (proyecto lateral de iniciativa rastreado vía Sentry). \n- Reduje tiempos de despliegue en 40% a través de flujos de trabajo de lanzamiento mejorados"
+        "description": " Entregué características completas usando desarrollo dirigido por pruebas, participando desde el diseño de arquitectura hasta UX pulida. \n Construí servicios escalables con Django, Vue.js, Docker, y MySQL. \n Reduje bugs en producción en ~20% introduciendo pruebas automatizadas y pipelines de CI/CD (proyecto lateral de iniciativa rastreado vía Sentry). \n Reduje tiempos de despliegue en 40% a través de flujos de trabajo de lanzamiento mejorados"
       },
       "capvital": {
         "title": "Desarrollador Full Stack", 
         "company": "Capvital",
         "duration": "Enero 2020 - Octubre 2020",
-        "description": "- Dirigí el desarrollo en sistemas críticos de transacciones bancarias, donde los cambios de características anteriormente tomaban semanas debido a preocupaciones de confiabilidad. \n  - Diseñé un servicio de validación paralela que clonó la base de datos, ejecutó procesos de transacción antiguos y nuevos en paralelo, y marcó discrepancias.\n  - Esta innovación proporcionó alta confiabilidad y confianza en los cambios de producción, reduciendo los ciclos de desarrollo de semanas a días.\n  - Contribuciones full-stack con Laravel, AngularJS, Python, y MySQL." 
+        "description": " Dirigí el desarrollo en sistemas críticos de transacciones bancarias, donde los cambios de características anteriormente tomaban semanas debido a preocupaciones de confiabilidad. \n  - Diseñé un servicio de validación paralela que clonó la base de datos, ejecutó procesos de transacción antiguos y nuevos en paralelo, y marcó discrepancias.\n  - Esta innovación proporcionó alta confiabilidad y confianza en los cambios de producción, reduciendo los ciclos de desarrollo de semanas a días.\n  - Contribuciones full-stack con Laravel, AngularJS, Python, y MySQL." 
       },
       "inria": {
         "title": "Investigador",
         "company": "Inria",
         "duration": "Enero 2019 - Junio 2019",
-        "description": "- Publicé un artículo de investigación en la conferencia WWW’20 sobre modelado IoT con sistemas basados en reglas. \n - Construí prototipos usando Vue.js, Node.js, Java, y SQLite para simulación de dispositivos conectados."
+        "description": " Publicé un artículo de investigación en la conferencia WWW’20 sobre modelado IoT con sistemas basados en reglas. \n Construí prototipos usando Vue.js, Node.js, Java, y SQLite para simulación de dispositivos conectados."
       }
     },
     "technologies": {
@@ -185,7 +185,7 @@
         "title": "Técnico superior universitario en tecnologías de la información",
         "university": "Universidad tecnológica de Chihuahua",
         "duration": "2016 - 2018",
-        "description": "- Artículo de investigación publicado en la conferencia WWW'20 sobre modelado IoT con sistemas basados en reglas. \n - Construí prototipos usando Vue.js, Node.js, Java, y SQLite para simulación de dispositivos conectados."
+        "description": " Artículo de investigación publicado en la conferencia WWW'20 sobre modelado IoT con sistemas basados en reglas. \n Construí prototipos usando Vue.js, Node.js, Java, y SQLite para simulación de dispositivos conectados."
       }
     },
     "research": {

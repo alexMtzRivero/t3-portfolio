@@ -78,11 +78,11 @@ export default function ProfessionalExperience({ className = "", ref }: Professi
               </div>
               <span className="text-gray-600 font-semibold text-lg bg-gray-100 px-3 py-1 rounded-full">{exp.duration}</span>
             </div>
-            <ol>
+            <ul>
             {exp.description.split('\n').map((line, index) => (
               <li key={index} className="text-gray-700 mb-2 leading-relaxed text-lg">{line}</li>
             ))}
-            </ol>
+            </ul>
             <div className="flex flex-wrap gap-2">
               {exp.technologies.map((tech) => (
                 <span key={tech} className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium border border-blue-200">

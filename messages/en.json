@@ -65,30 +65,30 @@
         "company": "Platsage",
         "duration": "January 2023 - Present",
         "description": 
-           "- Founded and scaled an AI-powered omnichannel messaging platform integrating WhatsApp, social media, and web chat for SMEs. \n - Led a team of 6 engineers, driving hiring, mentoring, and culture as the company scaled operations. \n - Designed the system architecture on AWS + Pulumi, achieving 99.9% uptime while handling 100k+ monthly conversations. \n - Implemented AI-assisted chat automation that reduced average customer response time by 70%, improving conversion rates. \n - Grew platform adoption to 50+ businesses, increasing client online sales and generating recurring SaaS revenue."
+           "Founded and scaled an AI-powered omnichannel messaging platform integrating WhatsApp, social media, and web chat for SMEs. \n Led a team of 6 engineers, driving hiring, mentoring, and culture as the company scaled operations. \n Designed the system architecture on AWS + Pulumi, achieving 99.9% uptime while handling 100k+ monthly conversations. \n Implemented AI-assisted chat automation that reduced average customer response time by 70%, improving conversion rates. \n Grew platform adoption to 50+ businesses, increasing client online sales and generating recurring SaaS revenue."
       },
       "siglo": {
         "title": "Full-stack Developer",
         "company": "Siglo Internet (YC S21)",
         "duration": "October 2021 - October 2022", 
-        "description": "-Designed and built internal mobile apps for field technicians, enabling them to install internet services 2× faster. \n- Optimized applications for low-end Android devices, ensuring reliability in environments with poor or lost connectivity. \n- Developed features with Django, Kotlin, and Jetpack Compose, improving resilience under critical and recovery system conditions. \n- Collaborated across teams (execs, HR, engineers) to streamline workflows, reducing service downtime and improving customer satisfaction."
+        "description": "Designed and built internal mobile apps for field technicians, enabling them to install internet services 2× faster. \n Optimized applications for low-end Android devices, ensuring reliability in environments with poor or lost connectivity. \n Developed features with Django, Kotlin, and Jetpack Compose, improving resilience under critical and recovery system conditions. \n Collaborated across teams (execs, HR, engineers) to streamline workflows, reducing service downtime and improving customer satisfaction."
       },
       "oneragtime": {
         "title": "Full Stack Developer",
         "company": "OneRagtime",
         "duration": "October 2020 - September 2021",
-        "description": "- Delivered complete features using test-driven development, participating from architecture design to polished UX. \n - Built scalable services with Django, Vue.js, Docker, and MySQL. \n - Reduced bugs in production by ~20% by introducing automated testing and CI/CD pipelines (initiative side project tracked via Sentry). \n- Cut deployment times by 40% through improved release workflows" },
+        "description": " Delivered complete features using test-driven development, participating from architecture design to polished UX. \n Built scalable services with Django, Vue.js, Docker, and MySQL. \n Reduced bugs in production by ~20% by introducing automated testing and CI/CD pipelines (initiative side project tracked via Sentry). \n Cut deployment times by 40% through improved release workflows" },
       "capvital": {
         "title": "Full Stack Developer", 
         "company": "Capvital",
         "duration": "January 2020 - October 2020",
-        "description": "- Owned development in critical banking transaction systems, where feature changes previously took weeks due to reliability concerns. \n  - Designed a parallel validation service that cloned the database, executed old and new transaction processes in parallel, and flagged discrepancies.\n  - This innovation provided high reliability and confidence in production changes, reducing development cycles from weeks to days.\n  - Full-stack contributions with Laravel, AngularJS, Python, and MySQL." 
+        "description": " Owned development in critical banking transaction systems, where feature changes previously took weeks due to reliability concerns. \n  - Designed a parallel validation service that cloned the database, executed old and new transaction processes in parallel, and flagged discrepancies.\n  - This innovation provided high reliability and confidence in production changes, reducing development cycles from weeks to days.\n  - Full-stack contributions with Laravel, AngularJS, Python, and MySQL." 
       },
       "inria":{
         "title": "Research Intern",
         "company": "INRIA",
         "duration": "January 2019 - June 2019",
-        "description": "- Published research article at WWW’20 conference on IoT modeling with rulebased systems. \n - Built prototypes using Vue.js, Node.js, Java, and SQLite for connected device simulation."
+        "description": " Published research article at WWW’20 conference on IoT modeling with rulebased systems. \n Built prototypes using Vue.js, Node.js, Java, and SQLite for connected device simulation."
       }
       }
   },

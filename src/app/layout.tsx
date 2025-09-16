@@ -1,11 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
 import "../styles/globals.css";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-});
 
 export const metadata: Metadata = {
   title: "Alex - Portfolio",
@@ -51,16 +45,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html className={`${inter.variable} font-sans`}>
+    <html>
       <head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
-      <body className="antialiased">
+      <body>
         {children}
       </body>
-      
     </html>
   );
 }

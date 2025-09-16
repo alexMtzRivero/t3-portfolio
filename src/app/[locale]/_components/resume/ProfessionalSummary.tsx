@@ -28,13 +28,13 @@ export default function ProfessionalSummary({ className = "", ref }: Professiona
   // };
 
   return (
-    <section className={`mb-10 ${className}`} ref={ref}>
-      <h2 className="text-3xl font-bold text-gray-900 mb-6 border-b-2 border-blue-200 pb-3 flex items-center gap-3">
-        <div className="w-1 h-8 bg-blue-500 rounded"></div>
+    <section className={`mb-6 ${className}`} ref={ref}>
+      <h2 className="text-xl font-bold text-gray-900 mb-3 border-b-2 border-blue-200 pb-2 flex items-center gap-2">
+        <div className="w-1 h-5 bg-blue-500 rounded"></div>
         {t('hero.summary')}
       </h2>
-      <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-        <p className="text-gray-700 leading-relaxed text-lg">
+      <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
+        <p className="text-gray-700 leading-relaxed text-sm">
           {t('hero.description')}
         </p>
       </div>

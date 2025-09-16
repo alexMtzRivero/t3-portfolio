@@ -39,7 +39,7 @@ export default async function ResumePage({
         </div>
 
         {/* Resume Content */}
-        <div id="resume-content" className="bg-white shadow-2xl rounded-xl p-10 border border-gray-200">
+        <div id="resume-content" className="bg-white shadow-2xl rounded-xl p-6 border border-gray-200">
           <ResumeHeader />
           <ProfessionalSummary />
           <ProfessionalExperience />

@@ -63,29 +63,29 @@ export default function ProfessionalExperience({ className = "", ref }: Professi
  
 
   return (
-    <section className={`mb-10 ${className}`} ref={ref}>
-      <h2 className="text-3xl font-bold text-gray-900 mb-6 border-b-2 border-blue-200 pb-3 flex items-center gap-3">
-        <div className="w-1 h-8 bg-blue-500 rounded"></div>
+    <section className={`mb-6 ${className}`} ref={ref}>
+      <h2 className="text-xl font-bold text-gray-900 mb-4 border-b-2 border-blue-200 pb-2 flex items-center gap-2">
+        <div className="w-1 h-5 bg-blue-500 rounded"></div>
         {t('experience.title')}
       </h2>
-      <div className="space-y-8">
+      <div className="space-y-4">
         {experiences.map((exp, index) => (
-          <div key={index} className="bg-white border-l-4 border-blue-500 pl-6 pr-6 py-6 rounded-r-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+          <div key={index} className="bg-white border-l-4 border-blue-500 pl-4 pr-4 py-3 rounded-r-xl shadow-sm">
+            <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-1">{exp.title}</h3>
-                <p className="text-xl text-blue-600 font-semibold">{exp.company}</p>
+                <h3 className="text-lg font-bold text-gray-900 mb-1">{exp.title}</h3>
+                <p className="text-base text-blue-600 font-semibold">{exp.company}</p>
               </div>
-              <span className="text-gray-600 font-semibold text-lg bg-gray-100 px-3 py-1 rounded-full">{exp.duration}</span>
+              <span className="text-gray-600 font-semibold text-sm bg-gray-100 px-2 py-1 rounded-full">{exp.duration}</span>
             </div>
             <ul>
             {exp.description.split('\n').map((line, index) => (
-              <li key={index} className="text-gray-700 mb-2 leading-relaxed text-lg">{line}</li>
+              <li key={index} className="text-gray-700 mb-1 leading-relaxed text-sm list-disc list-inside">{line}</li>
             ))}
             </ul>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-1">
               {exp.technologies.map((tech) => (
-                <span key={tech} className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium border border-blue-200">
+                <span key={tech} className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium border border-blue-200">
                   {tech}
                 </span>
               ))}

@@ -13,7 +13,7 @@
     "title": "CTO & Co-Founder",
     "description": "Engineering leader and full-stack developer with 8+ years of experience designing, building, and scaling distributed systems and SaaS platforms. Proven track record as CTO and co-founder, leading cross-functional teams, driving architecture decisions, and delivering AI-powered products adopted by mid-sized businesses. Skilled at bridging deep technical execution with strategic leadership to deliver measurable business impact.",
     "viewWork": "View My Work",
-    "downloadResume": "Download Resume"
+    "downloadResume": "Resume"
   },
   "about": {
     "title": "About Me",
@@ -82,7 +82,7 @@
         "title": "Full Stack Developer", 
         "company": "Capvital",
         "duration": "January 2020 - October 2020",
-        "description": " Owned development in critical banking transaction systems, where feature changes previously took weeks due to reliability concerns. \n  - Designed a parallel validation service that cloned the database, executed old and new transaction processes in parallel, and flagged discrepancies.\n  - This innovation provided high reliability and confidence in production changes, reducing development cycles from weeks to days.\n  - Full-stack contributions with Laravel, AngularJS, Python, and MySQL." 
+        "description": " Owned development in critical banking transaction systems, where feature changes previously took weeks due to reliability concerns. \n Designed a parallel validation service that cloned the database, executed old and new transaction processes in parallel, and flagged discrepancies.\n  This innovation provided high reliability and confidence in production changes, reducing development cycles from weeks to days.\n  Full-stack contributions with Laravel, AngularJS, Python, and MySQL." 
       },
       "inria":{
         "title": "Research Intern",

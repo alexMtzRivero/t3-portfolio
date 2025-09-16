@@ -31,10 +31,10 @@ export default function ResumeHeader({ className = "", ref }: ResumeHeaderProps)
   // };
 
   return (
-    <div className={`text-center mb-10 border-b-2 border-blue-200 pb-8 ${className}`} ref={ref}>
-      <h1 className="text-5xl font-bold text-gray-900 mb-3 tracking-tight">{t('hero.name')}</h1>
-      <p className="text-2xl text-blue-600 mb-6 font-medium">{t('hero.title')} | Full-Stack Developer</p>
-      <div className="flex flex-wrap justify-center gap-6 text-gray-600">
+    <div className={`text-center mb-6 border-b-2 border-blue-200 pb-4 ${className}`} ref={ref}>
+      <h1 className="text-3xl font-bold text-gray-900 mb-2 tracking-tight">{t('hero.name')}</h1>
+      <p className="text-lg text-blue-600 mb-4 font-medium">{t('hero.title')} | Full-Stack Developer</p>
+      <div className="flex flex-wrap justify-center gap-4 text-gray-600">
         <a href={t('contact.methods.email.url')} className="hover:text-blue-600 transition-colors duration-200 flex items-center gap-2">
           <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />

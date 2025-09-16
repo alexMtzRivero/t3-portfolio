@@ -1,9 +1,12 @@
 "use client";
 
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
+import { useCurrentLanguage } from './useCurrentLanguage';
 
 export function Hero() {
   const t = useTranslations('hero');
+  const currentLanguage = useCurrentLanguage();
 
   return (
     <section className="pt-24 pb-16 px-6">
@@ -28,7 +31,9 @@ export function Hero() {
             {t('viewWork')}
           </button>
           <button className="border-2 border-secondary-900 text-secondary-900 hover:bg-secondary-900 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
+            <Link href={`/${currentLanguage?.code}/resume`} target="_self">
             {t('downloadResume')}
+            </Link>
           </button>
         </div>
       </div>

@@ -32,21 +32,21 @@ export default function EducationResearch({ className = "", ref }: EducationRese
   ];
 
   return (
-    <section className={`mb-10 ${className}`} ref={ref}>
-      <h2 className="text-3xl font-bold text-gray-900 mb-6 border-b-2 border-blue-200 pb-3 flex items-center gap-3">
-        <div className="w-1 h-8 bg-blue-500 rounded"></div>
+    <section className={`mb-6 ${className}`} ref={ref}>
+      <h2 className="text-xl font-bold text-gray-900 mb-4 border-b-2 border-blue-200 pb-2 flex items-center gap-2">
+        <div className="w-1 h-5 bg-blue-500 rounded"></div>
         {t('education.title')}
       </h2>
-      <div className="space-y-6">
+      <div className="space-y-3">
         {educationItems.map((item, index) => (
-          <div key={index} className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border border-blue-200 shadow-lg">
-            <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-3">
+          <div key={index} className="bg-gradient-to-br from-blue-50 to-blue-100 p-4 rounded-xl border border-blue-200 shadow-sm">
+            <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-1">{item.university}</h3>
-                <p className="text-xl text-blue-600 font-semibold">{item.title}</p>
+                <h3 className="text-lg font-bold text-gray-900 mb-1">{item.university}</h3>
+                <p className="text-base text-blue-600 font-semibold">{item.title}</p>
               </div>
               
-              <span className="text-gray-600 whitespace-nowrap font-semibold text-lg bg-gray-100 px-3 py-1 rounded-full">{item.duration}</span>
+              <span className="text-gray-600 whitespace-nowrap font-semibold text-sm bg-gray-100 px-2 py-1 rounded-full">{item.duration}</span>
             </div>
           </div>
         ))}

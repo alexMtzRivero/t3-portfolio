@@ -13,7 +13,7 @@
     "title": "CTO y Co-Fundador",
     "description": "Líder de ingeniería y desarrollador full-stack con 8+ años de experiencia en diseñar, construir y escalar sistemas distribuidos y plataformas SaaS. Experiencia probada como CTO y co-fundador, liderando equipos multifuncionales y entregando productos adoptados por empresas medianas impulsados por IA.",
     "viewWork": "Ver mi trabajo",
-    "downloadResume": "Descargar currículum"
+    "downloadResume": "Currículum"
   },
   "about": {
     "title": "Sobre mí",
@@ -82,7 +82,7 @@
         "title": "Desarrollador Full Stack", 
         "company": "Capvital",
         "duration": "Enero 2020 - Octubre 2020",
-        "description": " Dirigí el desarrollo en sistemas críticos de transacciones bancarias, donde los cambios de características anteriormente tomaban semanas debido a preocupaciones de confiabilidad. \n  - Diseñé un servicio de validación paralela que clonó la base de datos, ejecutó procesos de transacción antiguos y nuevos en paralelo, y marcó discrepancias.\n  - Esta innovación proporcionó alta confiabilidad y confianza en los cambios de producción, reduciendo los ciclos de desarrollo de semanas a días.\n  - Contribuciones full-stack con Laravel, AngularJS, Python, y MySQL." 
+        "description": " Dirigí el desarrollo en sistemas críticos de transacciones bancarias, donde los cambios de características anteriormente tomaban semanas debido a preocupaciones de confiabilidad. \n  Diseñé un servicio de validación paralela que clonó la base de datos, ejecutó procesos de transacción antiguos y nuevos en paralelo, y marcó discrepancias.\n  Esta innovación proporcionó alta confiabilidad y confianza en los cambios de producción, reduciendo los ciclos de desarrollo de semanas a días.\n  Contribuciones full-stack con Laravel, AngularJS, Python, y MySQL." 
       },
       "inria": {
         "title": "Investigador",

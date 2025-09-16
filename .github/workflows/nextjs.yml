@@ -72,8 +72,7 @@ jobs:
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: add nojekyll
-        run: echo "This is a test" > ./out/.nojekyll
-        run: echo "This is a test" > ./.nojekyll
+        run: echo "This is a test" > ./out/.nojekyll && echo "This is a test" > ./.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

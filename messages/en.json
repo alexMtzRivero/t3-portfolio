@@ -7,11 +7,15 @@
     "contact": "Contact",
     "resume": "Resume"
   },
+  "resume": {
+    "downloadPdf": "Download as PDF",
+    "backToPortfolio": "Back to Portfolio"
+  },
   "hero": {
     "summary": "Summary",
     "name": "Alejandro Martínez",
     "title": "CTO & Co-Founder",
-    "description": "Engineering leader and full-stack developer with 8+ years of experience designing, building, and scaling distributed systems and SaaS platforms. Proven track record as CTO and co-founder, leading cross-functional teams, driving architecture decisions, and delivering AI-powered products adopted by mid-sized businesses. Skilled at bridging deep technical execution with strategic leadership to deliver measurable business impact.",
+    "description": "Engineering leader and full-stack developer with 8+ years of experience designing, building, and scaling systems and SaaS platforms. Proven track record as CTO and co-founder, leading cross-functional teams, driving architecture decisions, and delivering AI-powered products adopted by mid-sized businesses. Skilled at bridging deep technical execution with strategic leadership to deliver measurable business impact.",
     "viewWork": "View My Work",
     "downloadResume": "Resume"
   },
@@ -82,13 +86,13 @@
         "title": "Full Stack Developer", 
         "company": "Capvital",
         "duration": "January 2020 - October 2020",
-        "description": " Owned development in critical banking transaction systems, where feature changes previously took weeks due to reliability concerns. \n Designed a parallel validation service that cloned the database, executed old and new transaction processes in parallel, and flagged discrepancies.\n  This innovation provided high reliability and confidence in production changes, reducing development cycles from weeks to days.\n  Full-stack contributions with Laravel, AngularJS, Python, and MySQL." 
+        "description": " Owned development in critical banking transaction systems, where feature changes previously took weeks due to reliability concerns. \n Designed a parallel validation service that cloned the database, executed old and new transaction processes in parallel, and flagged discrepancies.\n  This innovation provided high reliability and confidence in production changes, reducing development cycles from weeks to days." 
       },
       "inria":{
         "title": "Research Intern",
         "company": "INRIA",
         "duration": "January 2019 - June 2019",
-        "description": " Published research article at WWW’20 conference on IoT modeling with rulebased systems. \n Built prototypes using Vue.js, Node.js, Java, and SQLite for connected device simulation."
+        "description": " Published research article at WWW’20 conference on IoT modeling with rulebased systems. \n Built prototypes for connected device simulation."
       }
       }
   },
@@ -97,28 +101,28 @@
       "platsage": {
         "title": "Platsage - AI Messaging Platform",
         "icon": "🤖",
-        "description": "AI-powered omnichannel messaging platform integrating WhatsApp, social media, and web chat for SMEs. Built with AWS, Pulumi, and AI/ML technologies.",
+        "description": "AI-powered omnichannel messaging platform integrating WhatsApp, social media, and web chat for SMEs.",
         "liveUrl": "https://platsage.com",
         "githubUrl": "https://github.com/platsage"
       },
       "fieldTechnician": {
         "title": "Field Technician Mobile App",
         "icon": "📱",
-        "description": "Mobile app for field technicians to install internet services 2x faster. Built with Kotlin, Jetpack Compose, Django, and Android.",
+        "description": "Mobile app for field technicians to install internet services 2x faster.",
         "liveUrl": "#",
         "githubUrl": "#"
       },
       "bankingSystem": {
         "title": "Banking Transaction System",
         "icon": "🏦",
-        "description": "Critical banking transaction systems with parallel validation service. Built with Laravel, AngularJS, Python, and MySQL.",
+        "description": "Critical banking transaction systems with parallel validation service.",
         "liveUrl": "#",
         "githubUrl": "#"
       },
       "mozartIot": {
         "title": "Mozart IoT Research",
         "icon": "🔬",
-        "description": "IoT modeling with rule-based systems research project. Built with Vue.js, Node.js, Java, and SQLite.",
+        "description": "IoT modeling with rule-based systems research project.",
         "liveUrl": "#",
         "githubUrl": "#"
       }
@@ -139,13 +143,41 @@
         "duration": "2018 - 2019"
         },
       "universityChihuahua": {
-        "title": "Tecnico superior universitario en tecnologías de la información",
-        "university": "Universidad tecnológica de Chihuahua",
+        "title": "Associate Degree in Information Technologies",
+        "university": "Technological University of Chihuahua",
         "duration": "2016 - 2018"
        }
     }
   },
+  "stakedViews": {
+    "title": "My Journey",
+    "subtitle": "Discover the key aspects that drive my passion for technology and leadership",
+    "cards": {
+      "innovation": {
+        "category": "Innovation",
+        "title": "AI-Powered Solutions",
+        "description": "Leading the development of AI-powered solutions that transform how businesses communicate and operate, reducing response times by 70% through intelligent automation."
+      },
+      "leadership": {
+        "category": "Leadership",
+        "title": "Team Building",
+        "description": "Building and mentoring engineering teams of 6+ developers, fostering innovation culture while delivering scalable solutions that serve 50+ businesses."
+      },
+      "technology": {
+        "category": "Technology",
+        "title": "Full-Stack Mastery",
+        "description": "8+ years mastering modern technologies from React and Vue.js to AWS cloud architecture, with a focus on building robust, scalable systems."
+      },
+      "impact": {
+        "category": "Impact",
+        "title": "Business Results",
+        "description": "Delivering measurable results through technical excellence, from reducing deployment times by 40% to achieving 99.9% system uptime."
+      }
+    }
+  },
   "contact": {
+    "title": "Let's Work Together",
+    "description": "I'm always interested in new opportunities and exciting projects. Let's discuss how we can build something amazing together.",
     "methods": {
       "email": {
         "name": "Email Me",
@@ -153,7 +185,7 @@
       },
       "linkedin": {
         "name": "LinkedIn", 
-        "url": "https://linkedin.com/in/alejandromartinez-116836120"
+        "url": "https://www.linkedin.com/in/alejandro-martinez-116836120"
       },
       "github": {
         "name": "GitHub",

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { getTranslations } from 'next-intl/server';
 import ResumeHeader from '../_components/resume/ResumeHeader';
 import ProfessionalSummary from '../_components/resume/ProfessionalSummary';
 import ProfessionalExperience from '../_components/resume/ProfessionalExperience';
@@ -18,7 +19,7 @@ export default async function ResumePage({
 }: {
   params: Promise<{locale: string}>;
 }) {
-  // const {locale} = await params;
+  const t = await getTranslations('resume');
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-8">
       <div className="max-w-4xl mx-auto px-4">
@@ -32,7 +33,7 @@ export default async function ResumePage({
               <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
               </svg>
-              Back to Portfolio
+{t('backToPortfolio')}
             </Link>
             <ResumeClient />
           </div>

@@ -46,7 +46,7 @@ export default function ProfessionalExperience({ className = "", ref }: Professi
       duration: t('experience.items.capvital.duration'),
       description: t('experience.items.capvital.description'),
       technologies: [
-        "Laravel", "AngularJS", "Python", "MySQL", "Banking Systems"
+        "Laravel", "AngularJS", "Python", "MySQL"
       ],
     },
     {

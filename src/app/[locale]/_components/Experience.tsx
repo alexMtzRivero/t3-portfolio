@@ -39,7 +39,7 @@ export function Experience() {
       duration: t('items.capvital.duration'),
       description: t('items.capvital.description'),
       technologies: [
-        "Laravel", "AngularJS", "Python", "MySQL", "Banking Systems"
+        "Laravel", "AngularJS", "Python", "MySQL"
       ],
     },
   ];

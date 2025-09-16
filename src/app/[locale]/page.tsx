@@ -1,8 +1,5 @@
 import React from "react";
 import { Hero } from "./_components/Hero";
-import { About } from "./_components/About";
-import { Experience } from "./_components/Experience";
-import { Projects } from "./_components/Projects";
 import { StakedViews } from "./_components/StakedViews";
 import { Contact } from "./_components/Contact";
 import { Footer } from "./_components/Footer";
@@ -26,9 +23,6 @@ export default async function HomePage({
     <div className="min-h-screen bg-secondary-50 grid-pattern">
       <Navigation />
       <Hero />
-      <About />
-      <Experience />
-      <Projects />
       <StakedViews />
       <Contact />
       <Footer />

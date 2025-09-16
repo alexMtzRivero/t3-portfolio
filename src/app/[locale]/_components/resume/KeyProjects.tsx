@@ -33,7 +33,7 @@ export default function KeyProjects({ className = "" }: KeyProjectsProps) {
       icon: t('projects.items.bankingSystem.icon'),
       description: t('projects.items.bankingSystem.description'),
       technologies: [
-        "Laravel", "AngularJS", "Python", "MySQL", "Banking Systems"
+        "Laravel", "AngularJS", "Python", "MySQL"
       ],
     },
     {
@@ -69,7 +69,7 @@ export default function KeyProjects({ className = "" }: KeyProjectsProps) {
   //       icon: t('projects.items.bankingSystem.icon'),
   //       description: t('projects.items.bankingSystem.description'),
   //       technologies: [
-  //         "Laravel", "AngularJS", "Python", "MySQL", "Banking Systems"
+  //         "Laravel", "AngularJS", "Python", "MySQL"
   //       ],
   //     },
   //     {

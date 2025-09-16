@@ -9,7 +9,7 @@ export function Hero() {
   const currentLanguage = useCurrentLanguage();
 
   return (
-    <section className="pt-24 pb-16 px-6">
+    <section className="pt-24 pb-8 px-6 p">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           {/* ANIMATION: Fade in from top with stagger effect */}
@@ -27,9 +27,6 @@ export function Hero() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-20">
           {/* ANIMATION: Slide up with bounce effect */}
-          <button className="bg-secondary-900 hover:bg-secondary-800 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-            {t('viewWork')}
-          </button>
           <button className="border-2 border-secondary-900 text-secondary-900 hover:bg-secondary-900 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
             <Link href={`/${currentLanguage?.code}/resume`} target="_self">
             {t('downloadResume')}

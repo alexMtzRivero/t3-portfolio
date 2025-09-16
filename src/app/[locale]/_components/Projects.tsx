@@ -31,7 +31,7 @@ export function Projects() {
       icon: t('items.bankingSystem.icon'),
       description: t('items.bankingSystem.description'),
       technologies: [
-        "Laravel", "AngularJS", "Python", "MySQL", "Banking Systems"
+        "Laravel", "AngularJS", "Python", "MySQL"
       ],
       liveUrl: t('items.bankingSystem.liveUrl'),
       githubUrl: t('items.bankingSystem.githubUrl'),

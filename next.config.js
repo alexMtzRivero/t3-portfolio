@@ -7,13 +7,17 @@ import createNextIntlPlugin from 'next-intl/plugin';
 /** @type {import("next").NextConfig} */
 
 const config = {
-     output: 'export',
-     typescript: {
-       ignoreBuildErrors: true,
-     },
-     eslint: {
-       ignoreDuringBuilds: true,
-     },
+    output: 'export',
+    trailingSlash: true,
+    images: {
+      unoptimized: true,
+    },
+    typescript: {
+      ignoreBuildErrors: true,
+    },
+    eslint: {
+      ignoreDuringBuilds: true,
+    },
 };
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 export default withNextIntl(config);

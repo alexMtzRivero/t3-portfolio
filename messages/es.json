@@ -142,6 +142,12 @@
         "url": "https://github.com/alexmtzrivero"
       }
     }
+  },
+  "underConstruction": {
+    "title": "En Construcción",
+    "warning": "⚠️ Lo que estás viendo es un trabajo en progreso, pero puedes ver y descargar mi Currículum",
+    "banner": "En Construcción",
+    "downloadResume": " ver Currículum"
   }
 }
 

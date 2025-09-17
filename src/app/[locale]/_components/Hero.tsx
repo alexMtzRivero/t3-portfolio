@@ -27,11 +27,11 @@ export function Hero() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-20">
           {/* ANIMATION: Slide up with bounce effect */}
-          <button className="border-2 border-secondary-900 text-secondary-900 hover:bg-secondary-900 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
-            <Link href={`/${currentLanguage?.code}/resume`} target="_self">
+
+            <Link className=" text-center border-2 border-secondary-900 text-secondary-900 hover:bg-secondary-900 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300"
+            href={`/${currentLanguage?.code}/resume`} target="_self">
             {t('downloadResume')}
             </Link>
-          </button>
         </div>
       </div>
     </section>

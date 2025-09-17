@@ -1,5 +1,6 @@
 import React from "react";
 import { Hero } from "./_components/Hero";
+import { UnderConstruction } from "./_components/UnderConstruction";
 import { StakedViews } from "./_components/StakedViews";
 import { Languages } from "./_components/Languages";
 import { Contact } from "./_components/Contact";
@@ -24,6 +25,7 @@ export default async function HomePage({
   return (
     <div className="min-h-screen bg-secondary-50 grid-pattern">
       <Navigation />
+      <UnderConstruction />
       <Hero />
       <StakedViews />
       <Languages />

@@ -130,6 +130,12 @@
         "url": "https://github.com/alexmtzrivero"
       }
     }
+  },
+  "underConstruction": {
+    "title": "Under Construction",
+    "warning": "⚠️ What you are seeing is a work in progress, but you can view and download my Resume",
+    "banner": "Under Construction",
+    "downloadResume": " view Resume"
   }
 }
 

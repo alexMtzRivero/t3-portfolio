@@ -6,7 +6,8 @@ import { useCurrentLanguage } from './useCurrentLanguage';
 
 const languages = [
   { code: 'en', name: 'English', flag: '🇺🇸' },
-  { code: 'es', name: 'Español', flag: '🇪🇸' }
+  { code: 'es', name: 'Español', flag: '🇪🇸' },
+  { code: 'fr', name: 'Français', flag: '🇫🇷' }
 ];
 
 export function LanguageSelector() {

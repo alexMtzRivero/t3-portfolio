@@ -12,7 +12,8 @@ import ResumeClient from './ResumeClient';
 export async function generateStaticParams() {
   return [
     { locale: 'en' },
-    { locale: 'es' }
+    { locale: 'es' },
+    { locale: 'fr' }
   ];
 }
 

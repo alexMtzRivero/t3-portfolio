@@ -1,73 +1,73 @@
 {
   "navigation": {
-    "about": "sobre mí",
-    "skills": "Habilidades", 
-    "experience": "Experiencia",
-    "languages": "Idiomas",
-    "projects": "Proyectos",
+    "about": "à propos",
+    "skills": "Compétences", 
+    "experience": "Expérience",
+    "languages": "Langues",
+    "projects": "Projets",
     "contact": "Contact",
-    "resume": "Curriculum"
+    "resume": "CV"
   },  
   "resume": {
-    "downloadPdf": "Télécharger comme PDF",
+    "downloadPdf": "Télécharger en PDF",
     "backToPortfolio": "Retour au Portfolio"
   },
   "hero": {
     "summary": "Résumé",
     "name": "Alejandro Martínez",
-    "title": "CTO y Co-Fundador",
-    "description": "Líder de ingeniería y desarrollador full-stack con 8+ años de experiencia en diseñar, construir y escalar sistemas y plataformas SaaS. Experiencia probada como CTO y co-fundador, liderando equipos multifuncionales y entregando productos adoptados por empresas medianas impulsados por IA.",
+    "title": "CTO et Co-fondateur",
+    "description": "Leader en ingénierie et développeur full-stack avec 8+ années d'expérience dans la conception, la construction et la mise à l'échelle de systèmes et plateformes SaaS. Expérience prouvée en tant que CTO et co-fondateur, dirigeant des équipes multifonctionnelles et livrant des produits adoptés par des entreprises moyennes alimentés par l'IA.",
     "viewWork": "Voir mon travail",
-    "downloadResume": "Currículum"
+    "downloadResume": "CV"
   },
   "about": {
     "title": "À propos de moi",
-    "description1": "Con más de 8 años de experiencia en ingeniería de software, me especializo en construir aplicaciones robustas y escalables, y liderar equipos de ingeniería. Como CTO y co-fundador de Platsage, he diseñado plataformas de mensajería omnicanal impulsadas por IA que sirven a 50+ empresas y manejan 100k+ conversaciones mensuales.",
-    "description2": "Mi expertise abarca el desarrollo full-stack, la arquitectura en la nube, la implementación de IA, y la liderazgo de equipos. Soy apasionado por crear soluciones que no solo cumplan con los requisitos de los negocios, sino que también generen un impacto medible, como reducir el tiempo de respuesta del cliente en un 70% a través de la automatización de IA.",
+    "description1": "Avec plus de 8 années d'expérience en ingénierie logicielle, je me spécialise dans la construction d'applications robustes et évolutives, et dans la direction d'équipes d'ingénierie. En tant que CTO et co-fondateur de Platsage, j'ai conçu des plateformes de messagerie omnicanale alimentées par l'IA qui servent 50+ entreprises et gèrent 100k+ conversations mensuelles.",
+    "description2": "Mon expertise couvre le développement full-stack, l'architecture cloud, l'implémentation d'IA, et le leadership d'équipes. Je suis passionné par la création de solutions qui non seulement répondent aux exigences des entreprises, mais génèrent également un impact mesurable, comme réduire le temps de réponse client de 70% grâce à l'automatisation IA.",
     "skills": {
      "reactVue": "React.js & Vue.js",
       "pythonDjango": "Python & Django", 
       "awsPulumi": "AWS & Pulumi",
-      "aiMl": "AI & Machine Learning"
+      "aiMl": "IA & Machine Learning"
     }
   },
   "experience": {
-    "title": "Experiencia",
+    "title": "Expérience",
     "items": {
       "platsage": {
-        "title": "CTO y Co-Fundador",
+        "title": "CTO et Co-fondateur",
         "location": "Mexique 🇲🇽",
         "company": "Platsage",
-        "duration": "Enero 2023 - Presente",
-        "description": " Fundé y escalé una plataforma de mensajería omnicanal impulsada por IA que integra WhatsApp, redes sociales y chat web para PYMEs. \n Lideré un equipo de 6 ingenieros, impulsando la contratación, mentoría y cultura mientras la empresa escalaba operaciones. \n Diseñé la arquitectura del sistema en AWS + Pulumi, logrando 99.9% de tiempo de actividad mientras manejaba 100k+ conversaciones mensuales. \n Implementé automatización de chat asistida por IA que redujo el tiempo promedio de respuesta al cliente en un 70%, mejorando las tasas de conversión. \n Incrementé la adopción de la plataforma a 50+ empresas, aumentando las ventas en línea de los clientes y generando ingresos recurrentes de SaaS."
+        "duration": "Janvier 2023 - Présent",
+        "description": " J'ai fondé et mis à l'échelle une plateforme de messagerie omnicanale alimentée par l'IA qui intègre WhatsApp, les réseaux sociaux et le chat web pour les PME. \n J'ai dirigé une équipe de 6 ingénieurs, en stimulant le recrutement, le mentorat et la culture pendant que l'entreprise évoluait ses opérations. \n J'ai conçu l'architecture du système sur AWS + Pulumi, atteignant 99,9% de temps de fonctionnement tout en gérant 100k+ conversations mensuelles. \n J'ai implémenté une automatisation de chat assistée par IA qui a réduit le temps moyen de réponse client de 70%, améliorant les taux de conversion. \n J'ai augmenté l'adoption de la plateforme à 50+ entreprises, augmentant les ventes en ligne des clients et générant des revenus récurrents SaaS."
       },
       "siglo": {
-        "title": "Desarrollador Full-stack",
+        "title": "Développeur Full-stack",
         "location": "Mexique 🇲🇽",
         "company": "Siglo Internet (YC S21)",
-        "duration": "Octubre 2021 - Octubre 2022", 
-        "description": " Diseñé y construí aplicaciones móviles internas para técnicos de campo, permitiéndoles instalar servicios de internet 2× más rápido. \n Optimicé aplicaciones para dispositivos Android de gama baja, asegurando confiabilidad en entornos con conectividad deficiente o perdida. \n Desarrollé características con Django, Kotlin, y Jetpack Compose, mejorando la resistencia bajo condiciones críticas y de recuperación del sistema. \n Colaboré entre equipos (ejecutivos, RRHH, ingenieros) para optimizar flujos de trabajo, reduciendo el tiempo de inactividad del servicio y mejorando la satisfacción del cliente."
+        "duration": "Octobre 2021 - Octobre 2022", 
+        "description": " J'ai conçu et construit des applications mobiles internes pour les techniciens de terrain, leur permettant d'installer les services internet 2× plus rapidement. \n J'ai optimisé les applications pour les appareils Android bas de gamme, assurant la fiabilité dans des environnements avec une connectivité défaillante ou perdue. \n J'ai développé des fonctionnalités avec Django, Kotlin, et Jetpack Compose, améliorant la résistance sous des conditions critiques et de récupération du système. \n J'ai collaboré entre équipes (exécutifs, RH, ingénieurs) pour optimiser les flux de travail, réduisant le temps d'arrêt du service et améliorant la satisfaction client."
       },
       "oneragtime": {
-        "title": "Desarrollador Full Stack",
+        "title": "Développeur Full Stack",
         "location": "Espagne 🇪🇸",
         "company": "OneRagtime",
-        "duration": "Octubre 2020 - Septiembre 2021",
-        "description": " Entregué características completas usando desarrollo dirigido por pruebas, participando desde el diseño de arquitectura hasta UX pulida. \n Reduje bugs en producción en ~20% introduciendo pruebas automatizadas y pipelines de CI/CD (proyecto lateral de iniciativa rastreado vía Sentry). \n Reduje tiempos de despliegue en 40% a través de flujos de trabajo de lanzamiento mejorados."
+        "duration": "Octobre 2020 - Septembre 2021",
+        "description": " J'ai livré des fonctionnalités complètes en utilisant le développement piloté par les tests, participant de la conception d'architecture jusqu'à l'UX polie. \n J'ai réduit les bugs en production de ~20% en introduisant des tests automatisés et des pipelines CI/CD (projet latéral d'initiative suivi via Sentry). \n J'ai réduit les temps de déploiement de 40% grâce à des flux de travail de lancement améliorés."
       },
       "capvital": {
-        "title": "Desarrollador Full Stack", 
+        "title": "Développeur Full Stack", 
         "company": "Capvital",
         "location": "Mexique 🇲🇽",
-        "duration": "Enero 2020 - Octubre 2020",
-        "description": " Dirigí el desarrollo en sistemas críticos de transacciones bancarias, donde los cambios de características anteriormente tomaban semanas debido a preocupaciones de confiabilidad. \n  Diseñé un servicio de validación paralela que clonó la base de datos, ejecutó procesos de transacción antiguos y nuevos en paralelo, y marcó discrepancias.\n  Esta innovación proporcionó alta confiabilidad y confianza en los cambios de producción, reduciendo los ciclos de desarrollo de semanas a días." 
+        "duration": "Janvier 2020 - Octobre 2020",
+        "description": " J'ai dirigé le développement dans des systèmes critiques de transactions bancaires, où les changements de fonctionnalités prenaient auparavant des semaines en raison de préoccupations de fiabilité. \n  J'ai conçu un service de validation parallèle qui a cloné la base de données, exécuté les processus de transaction anciens et nouveaux en parallèle, et marqué les écarts.\n  Cette innovation a fourni une haute fiabilité et confiance dans les changements de production, réduisant les cycles de développement de semaines à jours." 
       },
       "inria": {
-        "title": "Investigador",
+        "title": "Chercheur",
         "location": "France 🇫🇷",
         "company": "Inria",
-        "duration": "Enero 2019 - Junio 2019",
-        "description": " Publicé un artículo de investigación en la conferencia WWW’20 sobre modelado IoT con sistemas basados en reglas. \n Construí prototipos usando para simulación de dispositivos conectados."
+        "duration": "Janvier 2019 - Juin 2019",
+        "description": " J'ai publié un article de recherche à la conférence WWW'20 sur la modélisation IoT avec des systèmes basés sur des règles. \n J'ai construit des prototypes pour la simulation d'appareils connectés."
       }
     },
     "technologies": {
@@ -78,59 +78,59 @@
     }
   },
   "education": {
-    "title": "Educación",
+    "title": "Formation",
     "items": {
       "harbourspace": {
         "location": "Espagne 🇪🇸",
-        "title": "Maestría, Ciencia en computación, Minor en Ciencia de datos",
+        "title": "Master, Informatique, Mineur en Science des données",
         "university": "Harbour.space",
-        "duration": "Enero 2020 - Diciembre 2021"
+        "duration": "Janvier 2020 - Décembre 2021"
         },
       "universityGrenoble": {
         "location": "France 🇫🇷",
-        "title": "Licenciatura (licence professionnel), servicios móviles e interfaces nómadas",
+        "title": "Licence professionnelle, services mobiles et interfaces nomades",
         "university": "Université Grenoble Alpes",
         "duration": "2018 - 2019"
         },
       "universityChihuahua": {
       "location": "Mexique 🇲🇽",
-        "title": "Técnico superior universitario en tecnologías de la información",
-        "university": "Universidad tecnológica de Chihuahua",
+        "title": "Technicien supérieur universitaire en technologies de l'information",
+        "university": "Université technologique de Chihuahua",
         "duration": "2016 - 2018",
-        "description": " Artículo de investigación publicado en la conferencia WWW'20 sobre modelado IoT con sistemas basados en reglas. \n Construí prototipos para simulación de dispositivos conectados."
+        "description": " Article de recherche publié à la conférence WWW'20 sur la modélisation IoT avec des systèmes basés sur des règles. \n J'ai construit des prototypes pour la simulation d'appareils connectés."
       }
     },
     "research": {
       "mozartIot": {
-        "title": "Investigación IoT MOZART",
-        "description": "Artículo de investigación publicado en la conferencia WWW'20 sobre modelado IoT con sistemas basados en reglas",
-        "details": "Construí prototipos para simulación de dispositivos conectados usando Vue.js, Node.js, Java, y SQLite"
+        "title": "Recherche IoT MOZART",
+        "description": "Article de recherche publié à la conférence WWW'20 sur la modélisation IoT avec des systèmes basés sur des règles",
+        "details": "J'ai construit des prototypes pour la simulation d'appareils connectés en utilisant Vue.js, Node.js, Java, et SQLite"
       }
     }
   },
   "languages": {
-    "title": "Idiomas",
+    "title": "Langues",
     "items": {
       "french": {
-        "name": "Francés",
-        "level": "Nativo o Bilingüe"
+        "name": "Français",
+        "level": "Natif ou Bilingue"
       },
       "english": {
-        "name": "Inglés", 
-        "level": "Profesional Completo"
+        "name": "Anglais", 
+        "level": "Professionnel Complet"
       },
       "spanish": {
-        "name": "Español",
-        "level": "Nativo o Bilingüe"
+        "name": "Espagnol",
+        "level": "Natif ou Bilingue"
       }
     }
   },
   "contact": {
-    "title": "Trabajemos Juntos",
-    "description": "Siempre estoy interesado en nuevas oportunidades y proyectos emocionantes. Hablemos sobre cómo podemos construir algo increíble juntos.",
+    "title": "Travaillons Ensemble",
+    "description": "Je suis toujours intéressé par de nouvelles opportunités et des projets passionnants. Parlons de comment nous pouvons construire quelque chose d'incroyable ensemble.",
     "methods": {
       "email": {
-        "name": "Enviar Email",
+        "name": "Envoyer un Email",
         "url": "mailto:alejandro.martinez.0598@gmail.com"
       },
       "linkedin": {

@@ -10,7 +10,8 @@ import { Navigation } from "./_components/Navigation";
 export async function generateStaticParams() {
   return [
     { locale: 'en' },
-    { locale: 'es' }
+    { locale: 'es' },
+    { locale: 'fr' }
   ];
 }
 

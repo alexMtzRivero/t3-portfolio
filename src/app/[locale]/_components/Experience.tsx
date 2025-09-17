@@ -9,6 +9,7 @@ export function Experience() {
     {
       title: t('items.platsage.title'),
       company: t('items.platsage.company'),
+      location: t('items.platsage.location'),
       duration: t('items.platsage.duration'),
       description: t('items.platsage.description'),
       technologies: [
@@ -18,6 +19,7 @@ export function Experience() {
     {
       title: t('items.siglo.title'),
       company: t('items.siglo.company'),
+      location: t('items.siglo.location'),
       duration: t('items.siglo.duration'),
       description: t('items.siglo.description'),
       technologies: [
@@ -27,6 +29,7 @@ export function Experience() {
     {
       title: t('items.oneragtime.title'),
       company: t('items.oneragtime.company'),
+      location: t('items.oneragtime.location'),
       duration: t('items.oneragtime.duration'),
       description: t('items.oneragtime.description'),
       technologies: [
@@ -36,6 +39,7 @@ export function Experience() {
     {
       title: t('items.capvital.title'),
       company: t('items.capvital.company'),
+      location: t('items.capvital.location'),
       duration: t('items.capvital.duration'),
       description: t('items.capvital.description'),
       technologies: [
@@ -61,6 +65,9 @@ export function Experience() {
                   </h3>
                   <p className="text-primary-600 text-lg font-medium">
                     {exp.company}
+                  </p>
+                  <p className="text-secondary-500 text-sm">
+                    {exp.location}
                   </p>
                 </div>
                 <span className="text-secondary-500 mt-2 md:mt-0">

@@ -1,7 +1,7 @@
 "use client";
 
-import { useRouter } from '@/i18n/routing';
-import { useState } from 'react';
+import { useRouter, usePathname } from '@/i18n/routing';
+import { useState, useCallback } from 'react';
 import { useCurrentLanguage } from './useCurrentLanguage';
 
 const languages = [
@@ -11,13 +11,14 @@ const languages = [
 
 export function LanguageSelector() {
   const router = useRouter();
+
   const [isOpen, setIsOpen] = useState(false);
   const currentLanguage = useCurrentLanguage();
-  
-  const handleLanguageChange = (newLocale: string) => {
-    router.replace (`/`, {locale: newLocale});
+  const pathname = usePathname();
+  const handleLanguageChange = useCallback((newLocale: string) => {
+    router.push(pathname.replace(`/${currentLanguage?.code}/`,"/"), {locale: newLocale});
     setIsOpen(false);
-  };
+  }, [pathname, currentLanguage?.code, router]);
   
 
   return (

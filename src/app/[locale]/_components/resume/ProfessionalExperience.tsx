@@ -16,6 +16,7 @@ export default function ProfessionalExperience({ className = "", ref }: Professi
     {
       title: t('experience.items.platsage.title'),
       company: t('experience.items.platsage.company'),
+      location: t('experience.items.platsage.location'),
       duration: t('experience.items.platsage.duration'),
       description: t('experience.items.platsage.description'),
       technologies: [
@@ -25,6 +26,7 @@ export default function ProfessionalExperience({ className = "", ref }: Professi
     {
       title: t('experience.items.siglo.title'),
       company: t('experience.items.siglo.company'),
+      location: t('experience.items.siglo.location'),
       duration: t('experience.items.siglo.duration'),
       description: t('experience.items.siglo.description'),
       technologies: [
@@ -34,6 +36,7 @@ export default function ProfessionalExperience({ className = "", ref }: Professi
     {
       title: t('experience.items.oneragtime.title'),
       company: t('experience.items.oneragtime.company'),
+      location: t('experience.items.oneragtime.location'),
       duration: t('experience.items.oneragtime.duration'),
       description: t('experience.items.oneragtime.description'),
       technologies: [
@@ -43,6 +46,7 @@ export default function ProfessionalExperience({ className = "", ref }: Professi
     {
       title: t('experience.items.capvital.title'),
       company: t('experience.items.capvital.company'),
+      location: t('experience.items.capvital.location'),
       duration: t('experience.items.capvital.duration'),
       description: t('experience.items.capvital.description'),
       technologies: [
@@ -52,6 +56,7 @@ export default function ProfessionalExperience({ className = "", ref }: Professi
     {
       title: t('experience.items.inria.title'),
       company: t('experience.items.inria.company'),
+      location: t('experience.items.inria.location'),
       duration: t('experience.items.inria.duration'),
       description: t('experience.items.inria.description'),
       technologies: [
@@ -75,6 +80,7 @@ export default function ProfessionalExperience({ className = "", ref }: Professi
               <div>
                 <h3 className="text-lg font-bold text-gray-900 mb-1">{exp.title}</h3>
                 <p className="text-base text-blue-600 font-semibold">{exp.company}</p>
+                <p className="text-sm text-gray-500">{exp.location}</p>
               </div>
               <span className="text-gray-600 font-semibold text-sm bg-gray-100 px-2 py-1 rounded-full">{exp.duration}</span>
             </div>

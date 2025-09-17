@@ -5,23 +5,23 @@
     "experience": "Experiencia",
     "languages": "Idiomas",
     "projects": "Proyectos",
-    "contact": "Contacto",
-    "resume": "Currículum"
+    "contact": "Contact",
+    "resume": "Curriculum"
   },  
   "resume": {
-    "downloadPdf": "Descargar como PDF",
-    "backToPortfolio": "Volver al Portafolio"
+    "downloadPdf": "Télécharger comme PDF",
+    "backToPortfolio": "Retour au Portfolio"
   },
   "hero": {
-    "summary": "Resumen",
+    "summary": "Résumé",
     "name": "Alejandro Martínez",
     "title": "CTO y Co-Fundador",
     "description": "Líder de ingeniería y desarrollador full-stack con 8+ años de experiencia en diseñar, construir y escalar sistemas y plataformas SaaS. Experiencia probada como CTO y co-fundador, liderando equipos multifuncionales y entregando productos adoptados por empresas medianas impulsados por IA.",
-    "viewWork": "Ver mi trabajo",
+    "viewWork": "Voir mon travail",
     "downloadResume": "Currículum"
   },
   "about": {
-    "title": "Sobre mí",
+    "title": "À propos de moi",
     "description1": "Con más de 8 años de experiencia en ingeniería de software, me especializo en construir aplicaciones robustas y escalables, y liderar equipos de ingeniería. Como CTO y co-fundador de Platsage, he diseñado plataformas de mensajería omnicanal impulsadas por IA que sirven a 50+ empresas y manejan 100k+ conversaciones mensuales.",
     "description2": "Mi expertise abarca el desarrollo full-stack, la arquitectura en la nube, la implementación de IA, y la liderazgo de equipos. Soy apasionado por crear soluciones que no solo cumplan con los requisitos de los negocios, sino que también generen un impacto medible, como reducir el tiempo de respuesta del cliente en un 70% a través de la automatización de IA.",
     "skills": {
@@ -36,21 +36,21 @@
     "items": {
       "platsage": {
         "title": "CTO y Co-Fundador",
-        "location": "México 🇲🇽",
+        "location": "Mexique 🇲🇽",
         "company": "Platsage",
         "duration": "Enero 2023 - Presente",
         "description": " Fundé y escalé una plataforma de mensajería omnicanal impulsada por IA que integra WhatsApp, redes sociales y chat web para PYMEs. \n Lideré un equipo de 6 ingenieros, impulsando la contratación, mentoría y cultura mientras la empresa escalaba operaciones. \n Diseñé la arquitectura del sistema en AWS + Pulumi, logrando 99.9% de tiempo de actividad mientras manejaba 100k+ conversaciones mensuales. \n Implementé automatización de chat asistida por IA que redujo el tiempo promedio de respuesta al cliente en un 70%, mejorando las tasas de conversión. \n Incrementé la adopción de la plataforma a 50+ empresas, aumentando las ventas en línea de los clientes y generando ingresos recurrentes de SaaS."
       },
       "siglo": {
         "title": "Desarrollador Full-stack",
-        "location": "México 🇲🇽",
+        "location": "Mexique 🇲🇽",
         "company": "Siglo Internet (YC S21)",
         "duration": "Octubre 2021 - Octubre 2022", 
         "description": " Diseñé y construí aplicaciones móviles internas para técnicos de campo, permitiéndoles instalar servicios de internet 2× más rápido. \n Optimicé aplicaciones para dispositivos Android de gama baja, asegurando confiabilidad en entornos con conectividad deficiente o perdida. \n Desarrollé características con Django, Kotlin, y Jetpack Compose, mejorando la resistencia bajo condiciones críticas y de recuperación del sistema. \n Colaboré entre equipos (ejecutivos, RRHH, ingenieros) para optimizar flujos de trabajo, reduciendo el tiempo de inactividad del servicio y mejorando la satisfacción del cliente."
       },
       "oneragtime": {
         "title": "Desarrollador Full Stack",
-        "location": "España 🇪🇸",
+        "location": "Espagne 🇪🇸",
         "company": "OneRagtime",
         "duration": "Octubre 2020 - Septiembre 2021",
         "description": " Entregué características completas usando desarrollo dirigido por pruebas, participando desde el diseño de arquitectura hasta UX pulida. \n Reduje bugs en producción en ~20% introduciendo pruebas automatizadas y pipelines de CI/CD (proyecto lateral de iniciativa rastreado vía Sentry). \n Reduje tiempos de despliegue en 40% a través de flujos de trabajo de lanzamiento mejorados."
@@ -58,13 +58,13 @@
       "capvital": {
         "title": "Desarrollador Full Stack", 
         "company": "Capvital",
-        "location": "México 🇲🇽",
+        "location": "Mexique 🇲🇽",
         "duration": "Enero 2020 - Octubre 2020",
         "description": " Dirigí el desarrollo en sistemas críticos de transacciones bancarias, donde los cambios de características anteriormente tomaban semanas debido a preocupaciones de confiabilidad. \n  Diseñé un servicio de validación paralela que clonó la base de datos, ejecutó procesos de transacción antiguos y nuevos en paralelo, y marcó discrepancias.\n  Esta innovación proporcionó alta confiabilidad y confianza en los cambios de producción, reduciendo los ciclos de desarrollo de semanas a días." 
       },
       "inria": {
         "title": "Investigador",
-        "location": "Francia 🇫🇷",
+        "location": "France 🇫🇷",
         "company": "Inria",
         "duration": "Enero 2019 - Junio 2019",
         "description": " Publicé un artículo de investigación en la conferencia WWW’20 sobre modelado IoT con sistemas basados en reglas. \n Construí prototipos usando para simulación de dispositivos conectados."
@@ -81,19 +81,19 @@
     "title": "Educación",
     "items": {
       "harbourspace": {
-        "location": "España 🇪🇸",
+        "location": "Espagne 🇪🇸",
         "title": "Maestría, Ciencia en computación, Minor en Ciencia de datos",
         "university": "Harbour.space",
         "duration": "Enero 2020 - Diciembre 2021"
         },
       "universityGrenoble": {
-        "location": "Francia 🇫🇷",
+        "location": "France 🇫🇷",
         "title": "Licenciatura (licence professionnel), servicios móviles e interfaces nómadas",
         "university": "Université Grenoble Alpes",
         "duration": "2018 - 2019"
         },
       "universityChihuahua": {
-        "location": "México 🇲🇽",
+      "location": "Mexique 🇲🇽",
         "title": "Técnico superior universitario en tecnologías de la información",
         "university": "Universidad tecnológica de Chihuahua",
         "duration": "2016 - 2018",

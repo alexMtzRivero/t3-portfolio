@@ -17,16 +17,19 @@ export default function EducationResearch({ className = "", ref }: EducationRese
     {
       title: t('education.items.harbourspace.title'),
       university: t('education.items.harbourspace.university'),
+      location: t('education.items.harbourspace.location'),
       duration: t('education.items.harbourspace.duration'),
     },
     {
       title: t('education.items.universityGrenoble.title'),
       university: t('education.items.universityGrenoble.university'),
+      location: t('education.items.universityGrenoble.location'),
       duration: t('education.items.universityGrenoble.duration'),
     },
     {
       title: t('education.items.universityChihuahua.title'),
       university: t('education.items.universityChihuahua.university'),
+      location: t('education.items.universityChihuahua.location'),
       duration: t('education.items.universityChihuahua.duration'),
     },
   ];
@@ -44,6 +47,7 @@ export default function EducationResearch({ className = "", ref }: EducationRese
               <div>
                 <h3 className="text-lg font-bold text-gray-900 mb-1">{item.university}</h3>
                 <p className="text-base text-blue-600 font-semibold">{item.title}</p>
+                <p className="text-sm text-gray-500">{item.location}</p>
               </div>
               
               <span className="text-gray-600 whitespace-nowrap font-semibold text-sm bg-gray-100 px-2 py-1 rounded-full">{item.duration}</span>

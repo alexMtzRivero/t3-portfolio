@@ -10,6 +10,7 @@ export function Navigation() {
     { href: "#about", text: t('about') },
     { href: "#skills", text: t('skills') },
     { href: "#experience", text: t('experience') },
+    { href: "#languages", text: t('languages') },
     { href: "#projects", text: t('projects') },
     { href: "#contact", text: t('contact') },
     { href: "/resume", text: t('resume') },

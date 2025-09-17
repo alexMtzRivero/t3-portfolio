@@ -1,6 +1,7 @@
 import React from "react";
 import { Hero } from "./_components/Hero";
 import { StakedViews } from "./_components/StakedViews";
+import { Languages } from "./_components/Languages";
 import { Contact } from "./_components/Contact";
 import { Footer } from "./_components/Footer";
 import { Navigation } from "./_components/Navigation";
@@ -24,6 +25,7 @@ export default async function HomePage({
       <Navigation />
       <Hero />
       <StakedViews />
+      <Languages />
       <Contact />
       <Footer />
     </div>

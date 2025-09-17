@@ -12,24 +12,6 @@ interface ResumeHeaderProps {
 export default function ResumeHeader({ className = "", ref }: ResumeHeaderProps) {
   const t = useTranslations();
 
-  // const getResumeHeaderPDF = (t: Translations) => {
-  //   return `
-  //     <div style="text-align: center; margin-bottom: 25px; border-bottom: 2px solid #1e40af; padding-bottom: 15px;">
-  //       <h1 style="font-size: 24px; font-weight: bold; margin: 0 0 8px 0; color: #000000;">${t('hero.name')}</h1>
-  //       <p style="font-size: 14px; color: #1e40af; margin: 0 0 15px 0; font-weight: 600;">${t('hero.title')} | Full-Stack Developer</p>
-  //       <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-  //         <span style="color: #000000; font-size: 12px;">${t('contact.methods.email.url').replace('mailto:', '')}</span>
-  //         <span style="color: #000000; font-size: 12px;">${t('contact.methods.linkedin.name')}</span>
-  //         <span style="color: #000000; font-size: 12px;">${t('contact.methods.github.name')}</span>
-  //       </div>
-  //     </div>
-  //   `;
-  // };
-
-  // const onPDFexport = () => {
-  //   return getResumeHeaderPDF(t);
-  // };
-
   return (
     <div className={`text-center mb-6 border-b-2 border-blue-200 pb-4 ${className}`} ref={ref}>
       <h1 className="text-3xl font-bold text-gray-900 mb-2 tracking-tight">{t('hero.name')}</h1>

@@ -4,6 +4,8 @@ import ResumeHeader from '../_components/resume/ResumeHeader';
 import ProfessionalSummary from '../_components/resume/ProfessionalSummary';
 import ProfessionalExperience from '../_components/resume/ProfessionalExperience';
 import EducationResearch from '../_components/resume/EducationResearch';
+import Languages from '../_components/resume/Languages';
+import { LanguageSelector } from '../_components/LanguageSelector';
 import ResumeClient from './ResumeClient';
 
 // Generate static params for all supported locales
@@ -23,19 +25,13 @@ export default async function ResumePage({
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-8">
       <div className="max-w-4xl mx-auto px-4">
-        {/* Header with Download Button */}
+        {/* Header with Download Button and Language Selector */}
         <div className="mb-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
           <div className="flex gap-3">
-            <Link
-              href="/"
-              className="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200 flex items-center gap-2"
-            >
-              <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-              </svg>
-{t('backToPortfolio')}
-            </Link>
             <ResumeClient />
+          </div>
+          <div className="flex items-center gap-3">
+            <LanguageSelector />
           </div>
         </div>
 
@@ -43,6 +39,7 @@ export default async function ResumePage({
         <div id="resume-content" className="bg-white shadow-2xl rounded-xl p-6 border border-gray-200">
           <ResumeHeader />
           <ProfessionalSummary />
+          <Languages />
           <ProfessionalExperience />
           <EducationResearch />
         </div>

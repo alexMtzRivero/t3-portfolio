@@ -3,6 +3,7 @@
     "about": "sobre mí",
     "skills": "Habilidades", 
     "experience": "Experiencia",
+    "languages": "Idiomas",
     "projects": "Proyectos",
     "contact": "Contacto",
     "resume": "Currículum"
@@ -30,54 +31,26 @@
       "aiMl": "AI & Machine Learning"
     }
   },
-  "skills": {
-    "categories": {
-      "frontend": {
-        "title": "Frontend"
-      },
-      "backend": {
-        "title": "Backend"
-      },
-      "cloudDevops": {
-        "title": "Cloud y DevOps"
-      }
-    },
-    "frontend": {
-      "reactjs": "React.js",
-      "vuejs": "Vue.js", 
-      "jetpackCompose": "Jetpack Compose",
-      "angularjs": "AngularJS"
-    },
-    "backend": {
-      "pythonDjango": "Python/Django",
-      "nodejs": "Node.js",
-      "laravel": "Laravel", 
-      "mysql": "MySQL"
-    },
-    "cloudDevops": {
-      "aws": "AWS",
-      "docker": "Docker",
-      "pulumi": "Pulumi",
-      "cicd": "CI/CD"
-    }
-  },
   "experience": {
     "title": "Experiencia",
     "items": {
       "platsage": {
         "title": "CTO y Co-Fundador",
+        "location": "México",
         "company": "Platsage",
         "duration": "Enero 2023 - Presente",
         "description": " Fundé y escalé una plataforma de mensajería omnicanal impulsada por IA que integra WhatsApp, redes sociales y chat web para PYMEs. \n Lideré un equipo de 6 ingenieros, impulsando la contratación, mentoría y cultura mientras la empresa escalaba operaciones. \n Diseñé la arquitectura del sistema en AWS + Pulumi, logrando 99.9% de tiempo de actividad mientras manejaba 100k+ conversaciones mensuales. \n Implementé automatización de chat asistida por IA que redujo el tiempo promedio de respuesta al cliente en un 70%, mejorando las tasas de conversión. \n Incrementé la adopción de la plataforma a 50+ empresas, aumentando las ventas en línea de los clientes y generando ingresos recurrentes de SaaS."
       },
       "siglo": {
         "title": "Desarrollador Full-stack",
+        "location": "México",
         "company": "Siglo Internet (YC S21)",
         "duration": "Octubre 2021 - Octubre 2022", 
         "description": " Diseñé y construí aplicaciones móviles internas para técnicos de campo, permitiéndoles instalar servicios de internet 2× más rápido. \n Optimicé aplicaciones para dispositivos Android de gama baja, asegurando confiabilidad en entornos con conectividad deficiente o perdida. \n Desarrollé características con Django, Kotlin, y Jetpack Compose, mejorando la resistencia bajo condiciones críticas y de recuperación del sistema. \n Colaboré entre equipos (ejecutivos, RRHH, ingenieros) para optimizar flujos de trabajo, reduciendo el tiempo de inactividad del servicio y mejorando la satisfacción del cliente."
       },
       "oneragtime": {
         "title": "Desarrollador Full Stack",
+        "location": "España",
         "company": "OneRagtime",
         "duration": "Octubre 2020 - Septiembre 2021",
         "description": " Entregué características completas usando desarrollo dirigido por pruebas, participando desde el diseño de arquitectura hasta UX pulida. \n Reduje bugs en producción en ~20% introduciendo pruebas automatizadas y pipelines de CI/CD (proyecto lateral de iniciativa rastreado vía Sentry). \n Reduje tiempos de despliegue en 40% a través de flujos de trabajo de lanzamiento mejorados."
@@ -85,11 +58,13 @@
       "capvital": {
         "title": "Desarrollador Full Stack", 
         "company": "Capvital",
+        "location": "México",
         "duration": "Enero 2020 - Octubre 2020",
         "description": " Dirigí el desarrollo en sistemas críticos de transacciones bancarias, donde los cambios de características anteriormente tomaban semanas debido a preocupaciones de confiabilidad. \n  Diseñé un servicio de validación paralela que clonó la base de datos, ejecutó procesos de transacción antiguos y nuevos en paralelo, y marcó discrepancias.\n  Esta innovación proporcionó alta confiabilidad y confianza en los cambios de producción, reduciendo los ciclos de desarrollo de semanas a días." 
       },
       "inria": {
         "title": "Investigador",
+        "location": "Francia",
         "company": "Inria",
         "duration": "Enero 2019 - Junio 2019",
         "description": " Publicé un artículo de investigación en la conferencia WWW’20 sobre modelado IoT con sistemas basados en reglas. \n Construí prototipos usando para simulación de dispositivos conectados."
@@ -102,90 +77,23 @@
       "capvital": ["Laravel", "AngularJS", "Python", "MySQL"]
     }
   },
-  "projects": {
-    "items": {
-      "platsage": {
-        "title": "Plataforma IA Platsage",
-        "icon": "🤖",
-        "description": "Plataforma de mensajería omnicanal impulsada por IA que integra WhatsApp, redes sociales y chat web para PYMEs. Logró 99.9% de tiempo de actividad y 70% de reducción en tiempo de respuesta.",
-        "liveUrl": "#",
-        "githubUrl": "#"
-      },
-      "fieldTechnician": {
-        "title": "App Móvil para Técnicos de Campo",
-        "icon": "📱", 
-        "description": "Aplicaciones móviles internas para técnicos de campo que permiten instalación de servicios de internet 2× más rápido. Optimizada para dispositivos Android de gama baja con capacidades offline.",
-        "liveUrl": "#",
-        "githubUrl": "#"
-      },
-      "bankingSystem": {
-        "title": "Sistema de Transacciones Bancarias",
-        "icon": "🏦",
-        "description": "Servicio de validación paralela para transacciones bancarias críticas. Redujo los ciclos de desarrollo de semanas a días con alta confiabilidad y confianza en los cambios de producción.",
-        "liveUrl": "#", 
-        "githubUrl": "#"
-      },
-      "mozartIot": {
-        "title": "Investigación IoT MOZART",
-        "icon": "🔬",
-        "description": "Artículo de investigación publicado en la conferencia WWW'20 sobre modelado IoT con sistemas basados en reglas. Construí prototipos para simulación de dispositivos conectados.",
-        "liveUrl": "#",
-        "githubUrl": "#"
-      }
-    },
-    "technologies": {
-      "platsage": ["AWS", "Pulumi", "AI/ML", "WhatsApp API", "Docker"],
-      "fieldTechnician": ["Kotlin", "Jetpack Compose", "Django", "Android", "Python"],
-      "bankingSystem": ["Laravel", "AngularJS", "Python", "MySQL"],
-      "mozartIot": ["Vue.js", "Node.js", "Java", "SQLite", "IoT"]
-    }
-  },
-  "projects": {
-    "items": {
-      "platsage": {
-        "title": "Platsage - Plataforma de Mensajería IA",
-        "icon": "🤖",
-        "description": "Plataforma de mensajería omnicanal impulsada por IA que integra WhatsApp, redes sociales y chat web para PYMEs.",
-        "liveUrl": "https://platsage.com",
-        "githubUrl": "https://github.com/platsage"
-      },
-      "fieldTechnician": {
-        "title": "App Móvil para Técnicos de Campo",
-        "icon": "📱",
-        "description": "Aplicación móvil para técnicos de campo para instalar servicios de internet 2x más rápido.",
-        "liveUrl": "#",
-        "githubUrl": "#"
-      },
-      "bankingSystem": {
-        "title": "Sistema de Transacciones Bancarias",
-        "icon": "🏦",
-        "description": "Sistemas críticos de transacciones bancarias con servicio de validación paralela.",
-        "liveUrl": "#",
-        "githubUrl": "#"
-      },
-      "mozartIot": {
-        "title": "Investigación Mozart IoT",
-        "icon": "🔬",
-        "description": "Proyecto de investigación de modelado IoT con sistemas basados en reglas.",
-        "liveUrl": "#",
-        "githubUrl": "#"
-      }
-    }
-  },
   "education": {
     "title": "Educación",
     "items": {
       "harbourspace": {
+        "location": "España",
         "title": "Maestría, Ciencia en computación, Minor en Ciencia de datos",
         "university": "Harbour.space",
         "duration": "Enero 2020 - Diciembre 2021"
         },
       "universityGrenoble": {
+        "location": "Francia",
         "title": "Licenciatura (licence professionnel), servicios móviles e interfaces nómadas",
         "university": "Université Grenoble Alpes",
         "duration": "2018 - 2019"
         },
       "universityChihuahua": {
+        "location": "México",
         "title": "Técnico superior universitario en tecnologías de la información",
         "university": "Universidad tecnológica de Chihuahua",
         "duration": "2016 - 2018",
@@ -200,29 +108,20 @@
       }
     }
   },
-  "stakedViews": {
-    "title": "Mi Trayectoria",
-    "subtitle": "Descubre los aspectos clave que impulsan mi pasión por la tecnología y el liderazgo",
-    "cards": {
-      "innovation": {
-        "category": "Innovación",
-        "title": "Soluciones con IA",
-        "description": "Liderando el desarrollo de soluciones impulsadas por IA que transforman cómo las empresas se comunican y operan, reduciendo los tiempos de respuesta en un 70% a través de automatización inteligente."
+  "languages": {
+    "title": "Idiomas",
+    "items": {
+      "french": {
+        "name": "Francés",
+        "level": "Nativo o Bilingüe"
       },
-      "leadership": {
-        "category": "Liderazgo",
-        "title": "Construcción de Equipos",
-        "description": "Construyendo y mentorando equipos de ingeniería de 6+ desarrolladores, fomentando una cultura de innovación mientras entregamos soluciones escalables que sirven a 50+ empresas."
+      "english": {
+        "name": "Inglés", 
+        "level": "Profesional Completo"
       },
-      "technology": {
-        "category": "Tecnología",
-        "title": "Maestría Full-Stack",
-        "description": "8+ años dominando tecnologías modernas desde React y Vue.js hasta arquitectura en la nube AWS, con enfoque en construir sistemas robustos y escalables."
-      },
-      "impact": {
-        "category": "Impacto",
-        "title": "Resultados Empresariales",
-        "description": "Entregando resultados medibles a través de la excelencia técnica, desde reducir tiempos de despliegue en 40% hasta lograr 99.9% de tiempo de actividad del sistema."
+      "spanish": {
+        "name": "Español",
+        "level": "Nativo o Bilingüe"
       }
     }
   },

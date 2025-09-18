@@ -2,82 +2,47 @@
 
 import { useState } from "react";
 import { useTranslations } from 'next-intl';
-import jsPDF from "jspdf";
-import html2canvas from "html2canvas";
+import { pdf } from '@react-pdf/renderer';
+import ResumePDF from './ResumePDF';
+
+
 
 export default function ResumeClient() {
   const [isGeneratingPDF, setIsGeneratingPDF] = useState(false);
   const t = useTranslations('resume');
+  const heroT = useTranslations('hero');
+  const experienceT = useTranslations('experience');
+  const educationT = useTranslations('education');
+  const languagesT = useTranslations('languages');
+  const contactT = useTranslations('contact');
 
-  const generatePDF = async () => {
+   const generatePDF = async () => {
     setIsGeneratingPDF(true);
     try {
-      // Create a completely new element with inline styles to avoid Tailwind CSS issues
-      const pdfContent = document.createElement('div');
-      pdfContent.style.cssText = `
-        width: 800px;
-        background-color: #ffffff;
-        color: #000000;
-        font-family: Arial, sans-serif;
-        padding: 25px;
-        line-height: 1.4;
-      `;
-
-      // Get HTML from the resume content
-      const resumeContent = document.getElementById('resume-content');
-      if (resumeContent) {
-        pdfContent.innerHTML = resumeContent.innerHTML;
-      }
-
-      // Add to DOM temporarily
-      pdfContent.style.position = 'absolute';
-      pdfContent.style.left = '-9999px';
-      pdfContent.style.top = '0';
-      document.body.appendChild(pdfContent);
-
-      const canvas = await html2canvas(pdfContent, {
-        scale: 1.5,
-        useCORS: true,
-        allowTaint: true,
-        backgroundColor: "#ffffff",
-        logging: false,
-        width: 800,
-        height: pdfContent.scrollHeight,
-      });
-
-      // Clean up
-      document.body.removeChild(pdfContent);
-
-      const imgData = canvas.toDataURL("image/png");
+      // Create PDF document with translations
+      const translations = {
+        hero: heroT,
+        experience: experienceT,
+        education: educationT,
+        languages: languagesT,
+        contact: contactT,
+      };
       
-      // Calculate dimensions for single page
-      const imgWidth = 210; // A4 width in mm
-      const imgHeight = (canvas.height * imgWidth) / canvas.width;
+      console.log('Generating PDF with translations...');
+      const blob = await pdf(<ResumePDF translations={translations} />).toBlob();
+      console.log('PDF generated successfully');
       
-      // Create PDF with custom page size to fit the entire content
-      const pdf = new jsPDF({
-        orientation: "portrait",
-        unit: "mm",
-        format: [210, imgHeight] // Custom height to fit content
-      });
-
-      // Add the image to the single page
-      pdf.addImage(imgData, "PNG", 0, 0, imgWidth, imgHeight);
-
-      // Download PDF directly
-      const pdfBlob = pdf.output('blob') as Blob;
-      const pdfUrl = URL.createObjectURL(pdfBlob);
-      
-      // Create download link and trigger download
+      // Create download link
+      const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
-      link.href = pdfUrl;
+      link.href = url;
       link.download = 'AlejandroMartinezResume.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
       
-      // Clean up the URL
-      URL.revokeObjectURL(pdfUrl);
+      // Clean up
+      URL.revokeObjectURL(url);
     } catch (error) {
       console.error("Error generating PDF:", error);
     } finally {

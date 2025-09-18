@@ -36,21 +36,24 @@
     "items": {
       "platsage": {
         "title": "CTO et Co-fondateur",
-        "location": "Mexique 🇲🇽",
+        "location": "Mexique",
+        "flag": "🇲🇽",
         "company": "Platsage",
         "duration": "Janvier 2023 - Présent",
         "description": " J'ai fondé et mis à l'échelle une plateforme de messagerie omnicanale alimentée par l'IA qui intègre WhatsApp, les réseaux sociaux et le chat web pour les PME. \n J'ai dirigé une équipe de 6 ingénieurs, en stimulant le recrutement, le mentorat et la culture pendant que l'entreprise évoluait ses opérations. \n J'ai conçu l'architecture du système sur AWS + Pulumi, atteignant 99,9% de temps de fonctionnement tout en gérant 100k+ conversations mensuelles. \n J'ai implémenté une automatisation de chat assistée par IA qui a réduit le temps moyen de réponse client de 70%, améliorant les taux de conversion. \n J'ai augmenté l'adoption de la plateforme à 50+ entreprises, augmentant les ventes en ligne des clients et générant des revenus récurrents SaaS."
       },
       "siglo": {
         "title": "Développeur Full-stack",
-        "location": "Mexique 🇲🇽",
+        "location": "Mexique",
+        "flag": "🇲🇽",
         "company": "Siglo Internet (YC S21)",
         "duration": "Octobre 2021 - Octobre 2022", 
         "description": " J'ai conçu et construit des applications mobiles internes pour les techniciens de terrain, leur permettant d'installer les services internet 2× plus rapidement. \n J'ai optimisé les applications pour les appareils Android bas de gamme, assurant la fiabilité dans des environnements avec une connectivité défaillante ou perdue. \n J'ai développé des fonctionnalités avec Django, Kotlin, et Jetpack Compose, améliorant la résistance sous des conditions critiques et de récupération du système. \n J'ai collaboré entre équipes (exécutifs, RH, ingénieurs) pour optimiser les flux de travail, réduisant le temps d'arrêt du service et améliorant la satisfaction client."
       },
       "oneragtime": {
         "title": "Développeur Full Stack",
-        "location": "Espagne 🇪🇸",
+        "location": "Espagne",
+        "flag": "🇪🇸",
         "company": "OneRagtime",
         "duration": "Octobre 2020 - Septembre 2021",
         "description": " J'ai livré des fonctionnalités complètes en utilisant le développement piloté par les tests, participant de la conception d'architecture jusqu'à l'UX polie. \n J'ai réduit les bugs en production de ~20% en introduisant des tests automatisés et des pipelines CI/CD (projet latéral d'initiative suivi via Sentry). \n J'ai réduit les temps de déploiement de 40% grâce à des flux de travail de lancement améliorés."
@@ -58,13 +61,15 @@
       "capvital": {
         "title": "Développeur Full Stack", 
         "company": "Capvital",
-        "location": "Mexique 🇲🇽",
+        "location": "Mexique",
+        "flag": "🇲🇽",
         "duration": "Janvier 2020 - Octobre 2020",
         "description": " J'ai dirigé le développement dans des systèmes critiques de transactions bancaires, où les changements de fonctionnalités prenaient auparavant des semaines en raison de préoccupations de fiabilité. \n  J'ai conçu un service de validation parallèle qui a cloné la base de données, exécuté les processus de transaction anciens et nouveaux en parallèle, et marqué les écarts.\n  Cette innovation a fourni une haute fiabilité et confiance dans les changements de production, réduisant les cycles de développement de semaines à jours." 
       },
       "inria": {
         "title": "Chercheur",
-        "location": "France 🇫🇷",
+        "location": "France",
+        "flag": "🇫🇷",
         "company": "Inria",
         "duration": "Janvier 2019 - Juin 2019",
         "description": " J'ai publié un article de recherche à la conférence WWW'20 sur la modélisation IoT avec des systèmes basés sur des règles. \n J'ai construit des prototypes pour la simulation d'appareils connectés."
@@ -81,19 +86,22 @@
     "title": "Formation",
     "items": {
       "harbourspace": {
-        "location": "Espagne 🇪🇸",
+        "location": "Espagne",
+        "flag": "🇪🇸",
         "title": "Master, Informatique, Mineur en Science des données",
         "university": "Harbour.space",
         "duration": "Janvier 2020 - Décembre 2021"
         },
       "universityGrenoble": {
-        "location": "France 🇫🇷",
+        "location": "France",
+        "flag": "🇫🇷",
         "title": "Licence professionnelle, services mobiles et interfaces nomades",
         "university": "Université Grenoble Alpes",
         "duration": "2018 - 2019"
         },
       "universityChihuahua": {
-      "location": "Mexique 🇲🇽",
+        "location": "Mexique",
+        "flag": "🇲🇽",
         "title": "Technicien supérieur universitaire en technologies de l'information",
         "university": "Université technologique de Chihuahua",
         "duration": "2016 - 2018",

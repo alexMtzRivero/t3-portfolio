@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     color: '#111827',
-    marginBottom: 5,
+    marginBottom: 15,
   },
   title: {
     fontSize: 16,
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
   techTag: {
     backgroundColor: '#dbeafe',
     color: '#1e40af',
-    padding: '2 6',
+    padding: '4 4 0 4',
     borderRadius: 8,
     fontSize: 7,
     fontWeight: 'bold',
@@ -182,6 +182,15 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 5,
+  },
+  languageFlag: {
+    fontSize: 8,
+    fontWeight: 'bold',
+    color: '#2563eb',
+    backgroundColor: '#eff6ff',
+    padding: '2 4',
+    borderRadius: 3,
+    border: '1 solid #dbeafe',
   },
   languageName: {
     fontSize: 9,
@@ -275,17 +284,17 @@ export default function ResumePDF({ translations }: ResumePDFProps) {
     {
       name: t.languages('items.french.name'),
       level: t.languages('items.french.level'),
-      flag: '🇫🇷'
+      flag: 'FR'
     },
     {
       name: t.languages('items.english.name'),
       level: t.languages('items.english.level'),
-      flag: '🇺🇸'
+      flag: 'US'
     },
     {
       name: t.languages('items.spanish.name'),
       level: t.languages('items.spanish.level'),
-      flag: '🇪🇸'
+      flag: 'ES'
     }
   ];
 
@@ -333,7 +342,6 @@ export default function ResumePDF({ translations }: ResumePDFProps) {
           <View style={styles.languages}>
             {languages.map((lang, index) => (
               <View key={index} style={styles.languageItem}>
-                <Text>{lang.flag}</Text>
                 <Text style={styles.languageName}>{lang.name}</Text>
                 <Text style={styles.languageLevel}>- {lang.level}</Text>
               </View>

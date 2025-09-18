@@ -1,4 +1,4 @@
-import { Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer';
+import { Document, Page, Text, View, StyleSheet, Link } from '@react-pdf/renderer';
 
 // Define styles for the PDF
 const styles = StyleSheet.create({
@@ -308,17 +308,17 @@ export default function ResumePDF({ translations }: ResumePDFProps) {
           <View style={styles.contactInfo}>
             <View style={styles.contactItem}>
               <Text style={styles.contactText}>
-                {t.contact('methods.email.url').replace('mailto:', '')}
+                <Link style={styles.contactText} href={t.contact('methods.email.url')}>{t.contact('methods.email.url').replace('mailto:', '')}</Link>
               </Text>
             </View>
             <View style={styles.contactItem}>
               <Text style={styles.contactText}>
-                {t.contact('methods.linkedin.name')}
+                <Link style={styles.contactText} href={t.contact('methods.linkedin.url')}>{t.contact('methods.linkedin.name')}</Link>
               </Text>
             </View>
             <View style={styles.contactItem}>
               <Text style={styles.contactText}>
-                {t.contact('methods.github.name')}
+                <Link  style={styles.contactText} href={t.contact('methods.github.url')}>{t.contact('methods.github.name')}</Link>
               </Text>
             </View>
           </View>
